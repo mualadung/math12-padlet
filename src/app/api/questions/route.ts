@@ -1,5 +1,7 @@
 import { NextResponse } from "next/server";
-import { prisma } from "@/lib/prisma";
+import { getQuestionsSafe } from "@/lib/masterDataLoader";
+
+export const dynamic = "force-dynamic";
 
 export async function GET(request: Request) {
   try {
@@ -9,37 +11,11 @@ export async function GET(request: Request) {
     const questionType = searchParams.get("questionType");
     const search = searchParams.get("search");
 
-    const where: any = {};
-
-    if (categoryCode) {
-      where.category = { code: categoryCode };
-    }
-    if (difficulty) {
-      where.difficulty = difficulty;
-    }
-    if (questionType) {
-      where.questionType = questionType;
-    }
-    if (search) {
-      where.OR = [
-        { content: { contains: search } },
-        { code: { contains: search } },
-        { sourceExam: { contains: search } },
-      ];
-    }
-
-    const questions = await prisma.question.findMany({
-      where,
-      orderBy: { code: "asc" },
-      include: {
-        category: {
-          select: {
-            code: true,
-            title: true,
-            chapter: true,
-          },
-        },
-      },
+    const questions = await getQuestionsSafe({
+      categoryCode,
+      difficulty,
+      questionType,
+      search,
     });
 
     return NextResponse.json({ success: true, count: questions.length, data: questions });

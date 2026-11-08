@@ -1,17 +1,14 @@
 import { NextResponse } from "next/server";
-import { prisma } from "@/lib/prisma";
+import { getKnowledgeItemsSafe } from "@/lib/masterDataLoader";
+
+export const dynamic = "force-dynamic";
 
 export async function GET(request: Request) {
   try {
     const { searchParams } = new URL(request.url);
     const chapter = searchParams.get("chapter");
 
-    const where = chapter ? { chapter } : {};
-
-    const items = await prisma.knowledgeItem.findMany({
-      where,
-      orderBy: { order: "asc" },
-    });
+    const items = await getKnowledgeItemsSafe(chapter);
 
     return NextResponse.json({ success: true, count: items.length, data: items });
   } catch (error: any) {

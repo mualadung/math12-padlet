@@ -1,22 +1,14 @@
 import { NextResponse } from "next/server";
-import { prisma } from "@/lib/prisma";
+import { getCategoriesSafe } from "@/lib/masterDataLoader";
+
+export const dynamic = "force-dynamic";
 
 export async function GET(request: Request) {
   try {
     const { searchParams } = new URL(request.url);
     const chapter = searchParams.get("chapter");
 
-    const where = chapter ? { chapter } : {};
-
-    const categories = await prisma.mathCategory.findMany({
-      where,
-      orderBy: { order: "asc" },
-      include: {
-        _count: {
-          select: { questions: true },
-        },
-      },
-    });
+    const categories = await getCategoriesSafe(chapter);
 
     return NextResponse.json({ success: true, count: categories.length, data: categories });
   } catch (error: any) {

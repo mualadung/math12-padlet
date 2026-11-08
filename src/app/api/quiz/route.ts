@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
+import { getQuestionsSafe } from "@/lib/masterDataLoader";
 
 export async function POST(request: Request) {
   try {
@@ -14,9 +15,19 @@ export async function POST(request: Request) {
     }
 
     // Lấy danh sách câu hỏi để chấm điểm
-    const questions = await prisma.question.findMany({
-      where: { id: { in: questionIds } },
-    });
+    let questions: any[] = [];
+    try {
+      questions = await prisma.question.findMany({
+        where: { id: { in: questionIds } },
+      });
+    } catch (e) {
+      console.warn("Prisma error in quiz:", e);
+    }
+
+    if (!questions || questions.length === 0) {
+      const allQ = await getQuestionsSafe();
+      questions = allQ.filter((q: any) => questionIds.includes(q.id));
+    }
 
     let correctCount = 0;
     const evaluationResults: Record<string, any> = {};
@@ -57,22 +68,28 @@ export async function POST(request: Request) {
     }
 
     const totalQuestions = questions.length;
-    const score = Number(((correctCount / totalQuestions) * 10).toFixed(2));
+    const score = totalQuestions > 0 ? Number(((correctCount / totalQuestions) * 10).toFixed(2)) : 0;
 
-    const attempt = await prisma.quizAttempt.create({
-      data: {
-        studentName,
-        schoolOrClass: schoolOrClass || "Học sinh ôn tập",
-        score,
-        totalQuestions,
-        correctCount,
-        answersJson: JSON.stringify(answers),
-      },
-    });
+    let attemptId = "local-attempt-" + Date.now();
+    try {
+      const attempt = await prisma.quizAttempt.create({
+        data: {
+          studentName,
+          schoolOrClass: schoolOrClass || "Học sinh ôn tập",
+          score,
+          totalQuestions,
+          correctCount,
+          answersJson: JSON.stringify(answers),
+        },
+      });
+      attemptId = attempt.id;
+    } catch (saveErr) {
+      console.warn("Could not persist quiz attempt to DB (read-only environment):", saveErr);
+    }
 
     return NextResponse.json({
       success: true,
-      attemptId: attempt.id,
+      attemptId,
       score,
       correctCount,
       totalQuestions,
