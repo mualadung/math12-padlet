@@ -1,0 +1,502 @@
+[
+  {
+    "topic": "TOPIC_1_1",
+    "id": "Q01_D1",
+    "code": "Q01-2023",
+    "source": "[Nguồn: Đề thi tốt nghiệp THPT chính thức Bộ GD&ĐT 2023 - Mã đề 102 - Câu 12]",
+    "difficulty": "NB",
+    "type": "MULTIPLE_CHOICE",
+    "content": "Hàm số nào dưới đây đồng biến trên khoảng $(-\\infty; +\\infty)$?",
+    "correctAnswer": "A"
+  },
+  {
+    "topic": "TOPIC_1_1",
+    "id": "Q02_D1",
+    "code": "Q02-2024",
+    "source": "[Nguồn: Đề Khảo sát chất lượng Toán 12 Sở GD&ĐT Hà Nội 2024 - Câu 10]",
+    "difficulty": "TH",
+    "type": "MULTIPLE_CHOICE",
+    "content": "Hàm số $y = \\frac{x + 2}{x - 1}$ nghịch biến trên khoảng nào dưới đây?",
+    "correctAnswer": "A"
+  },
+  {
+    "topic": "TOPIC_1_1",
+    "id": "Q03_D1",
+    "code": "Q03-2024",
+    "source": "[Nguồn: Đề thi thử Tốt nghiệp THPT 2024 Chuyên Phan Bội Châu Nghệ An - Câu 12]",
+    "difficulty": "TH",
+    "type": "MULTIPLE_CHOICE",
+    "content": "Hàm số $y = -x^3 + 3x^2 + 9x - 2$ đồng biến trên khoảng nào dưới đây?",
+    "correctAnswer": "A"
+  },
+  {
+    "topic": "TOPIC_1_1",
+    "id": "Q04_D1",
+    "code": "Q04-2024",
+    "source": "[Nguồn: Đề thi thử Tốt nghiệp THPT 2024 Chuyên ĐH Sư Phạm Hà Nội - Câu 39]",
+    "difficulty": "VD",
+    "type": "SHORT_ANSWER",
+    "content": "Cho hàm số bậc ba $y = x^3 - 3mx^2 + 3(2m - 1)x + 1$ (với $m$ là tham số thực). Có bao nhiêu giá trị nguyên của $m \\in [-10; 10]$ để hàm số luôn đồng biến trên khoảng $(-\\infty; +\\infty)$?",
+    "correctAnswer": "1"
+  },
+  {
+    "topic": "TOPIC_1_1",
+    "id": "Q05_D1",
+    "code": "Q05-2024",
+    "source": "[Nguồn: Đề thi tốt nghiệp THPT chính thức Bộ GD&ĐT 2024 - Mã đề 102 - Câu 42]",
+    "difficulty": "VDC",
+    "type": "MULTIPLE_CHOICE",
+    "content": "Cho hàm số $y = f(x)$ có bảng xét dấu của đạo hàm $f'(x)$ như sau: $f'(x) > 0$ trên $(-1; 1)$ và $(4; +\\infty)$, $f'(x) < 0$ trên $(-\\infty; -1)$ và $(1; 4)$. Hàm số $g(x) = f(1 - 2x)$ đồng biến trên khoảng nào dưới đây?",
+    "correctAnswer": "A"
+  },
+  {
+    "topic": "TOPIC_1_2",
+    "id": "Q06_T2",
+    "code": "Q06-2024",
+    "source": "[Nguồn: Đề thi tốt nghiệp THPT chính thức Bộ GD&ĐT 2024 - Mã đề 104 - Câu 8]",
+    "difficulty": "NB",
+    "type": "MULTIPLE_CHOICE",
+    "content": "Cho hàm số $y = f(x)$ có bảng biến thiên: $f'(x) = 0$ tại $x = -1$ và $x = 2$; đạo hàm đổi dấu từ dương sang âm qua $x = -1$, đổi dấu từ âm sang dương qua $x = 2$. Điểm cực đại của hàm số đã cho là:",
+    "correctAnswer": "A"
+  },
+  {
+    "topic": "TOPIC_1_2",
+    "id": "Q07_T2",
+    "code": "Q07-2024",
+    "source": "[Nguồn: Đề Khảo sát chất lượng Toán 12 Sở GD&ĐT Hà Nội 2024 - Câu 14]",
+    "difficulty": "TH",
+    "type": "MULTIPLE_CHOICE",
+    "content": "Số điểm cực trị của hàm số trùng phương $y = -x^4 + 4x^2 + 1$ là:",
+    "correctAnswer": "C"
+  },
+  {
+    "topic": "TOPIC_1_2",
+    "id": "Q08_T2",
+    "code": "Q08-2025",
+    "source": "[Nguồn: Đề tham khảo Tốt nghiệp THPT 2025 Bộ GD&ĐT - Cấu trúc trắc nghiệm đúng/sai]",
+    "difficulty": "TH",
+    "type": "TRUE_FALSE",
+    "content": "Cho hàm số $y = f(x) = \\frac{1}{3}x^3 - 2x^2 + 3x + 1$. Xét tính đúng/sai của các mệnh đề sau:",
+    "correctAnswer": "a:Đ, b:S, c:Đ, d:Đ"
+  },
+  {
+    "topic": "TOPIC_1_2",
+    "id": "Q09_T2",
+    "code": "Q09-2024",
+    "source": "[Nguồn: Đề thi thử Tốt nghiệp THPT 2024 Chuyên Lam Sơn Thanh Hóa - Câu 35]",
+    "difficulty": "VD",
+    "type": "MULTIPLE_CHOICE",
+    "content": "Tìm tất cả các giá trị của tham số $m$ để hàm số $y = x^3 - 3mx^2 + 3(m^2 - 1)x + 2$ có hai điểm cực trị $x_1, x_2$ thỏa mãn $x_1^2 + x_2^2 = 10$.",
+    "correctAnswer": "A"
+  },
+  {
+    "topic": "TOPIC_1_2",
+    "id": "Q10_T2",
+    "code": "Q10-2024",
+    "source": "[Nguồn: Đề Khảo sát chất lượng Toán 12 Sở GD&ĐT Bắc Ninh 2024 - Câu 48]",
+    "difficulty": "VDC",
+    "type": "SHORT_ANSWER",
+    "content": "Cho hàm số $y = f(x)$ có đạo hàm $f'(x) = (x - 1)^2 (x^2 - 2x)$ với mọi $x \\in \\mathbb{R}$. Số điểm cực trị của hàm số đã cho là bao nhiêu?",
+    "correctAnswer": "2"
+  },
+  {
+    "topic": "TOPIC_1_3",
+    "id": "Q11_T3",
+    "code": "Q11-2023",
+    "source": "[Nguồn: Đề thi tốt nghiệp THPT chính thức Bộ GD&ĐT 2023 - Mã đề 101 - Câu 8]",
+    "difficulty": "NB",
+    "type": "MULTIPLE_CHOICE",
+    "content": "Giá trị nhỏ nhất của hàm số $f(x) = x^3 - 3x + 4$ trên đoạn $[0; 2]$ bằng:",
+    "correctAnswer": "A"
+  },
+  {
+    "topic": "TOPIC_1_3",
+    "id": "Q12_T3",
+    "code": "Q12-2024",
+    "source": "[Nguồn: Đề Khảo sát chất lượng Toán 12 Sở GD&ĐT Nam Định 2024 - Câu 16]",
+    "difficulty": "TH",
+    "type": "MULTIPLE_CHOICE",
+    "content": "Giá trị lớn nhất của hàm số $y = \\frac{2x - 3}{x + 1}$ trên đoạn $[0; 2]$ bằng:",
+    "correctAnswer": "A"
+  },
+  {
+    "topic": "TOPIC_1_3",
+    "id": "Q13_T3",
+    "code": "Q13-2022",
+    "source": "[Nguồn: Đề thi tốt nghiệp THPT chính thức Bộ GD&ĐT 2022 - Mã đề 102 - Câu 28]",
+    "difficulty": "TH",
+    "type": "MULTIPLE_CHOICE",
+    "content": "Giá trị lớn nhất của hàm số $f(x) = -x^4 + 12x^2 + 1$ trên đoạn $[-1; 2]$ bằng:",
+    "correctAnswer": "A"
+  },
+  {
+    "topic": "TOPIC_1_3",
+    "id": "Q14_T3",
+    "code": "Q14-2025",
+    "source": "[Nguồn: Đề tham khảo Tốt nghiệp THPT 2025 Bộ GD&ĐT - Cấu trúc mới - Phần Vận dụng]",
+    "difficulty": "VD",
+    "type": "MULTIPLE_CHOICE",
+    "content": "Một người nông dân nuôi tôm ước tính lợi nhuận thu hoạch sau $t$ tháng theo hàm số $P(t) = -t^3 + 6t^2 + 45t - 20$ (triệu đồng) với $t \\in [1; 8]$. Người nông dân nên thu hoạch vào cuối tháng thứ mấy để đạt lợi nhuận tối đa?",
+    "correctAnswer": "B"
+  },
+  {
+    "topic": "TOPIC_1_3",
+    "id": "Q15_T3",
+    "code": "Q15-2024",
+    "source": "[Nguồn: Đề Khảo sát chất lượng Toán 12 Sở GD&ĐT Nghệ An 2024 - Câu 45]",
+    "difficulty": "VDC",
+    "type": "SHORT_ANSWER",
+    "content": "Một xưởng làm thùng chứa hình trụ bằng tôn không có nắp đậy với thể tích $V = 27\\pi\\text{ dm}^3$. Để tiết kiệm tôn nhất (diện tích tôn nhỏ nhất), bán kính đáy $R$ của thùng phải bằng bao nhiêu decimét (dm)?",
+    "correctAnswer": "3"
+  },
+  {
+    "topic": "TOPIC_1_4",
+    "id": "Q16_T4",
+    "code": "Q16-2023",
+    "source": "[Nguồn: Đề thi tốt nghiệp THPT chính thức Bộ GD&ĐT 2023 - Mã đề 101 - Câu 11]",
+    "difficulty": "NB",
+    "type": "MULTIPLE_CHOICE",
+    "content": "Tiệm cận ngang của đồ thị hàm số $y = \\frac{2x - 1}{x + 2}$ là đường thẳng có phương trình:",
+    "correctAnswer": "A"
+  },
+  {
+    "topic": "TOPIC_1_4",
+    "id": "Q17_T4",
+    "code": "Q17-2025",
+    "source": "[Nguồn: Đề tham khảo Tốt nghiệp THPT 2025 Bộ GD&ĐT - Môn Toán - Câu 15]",
+    "difficulty": "TH",
+    "type": "MULTIPLE_CHOICE",
+    "content": "Đường tiệm cận xiên của đồ thị hàm số $y = \\frac{x^2 + 2x - 2}{x + 1}$ có phương trình là:",
+    "correctAnswer": "A"
+  },
+  {
+    "topic": "TOPIC_1_4",
+    "id": "Q18_T4",
+    "code": "Q18-2024",
+    "source": "[Nguồn: Đề Khảo sát chất lượng Toán 12 Sở GD&ĐT Nam Định 2024 - Câu 35]",
+    "difficulty": "TH",
+    "type": "TRUE_FALSE",
+    "content": "Cho hàm số $y = f(x) = \\frac{2x^2 - 5x + 2}{x^2 - 4}$. Xét tính đúng/sai của các mệnh đề sau:",
+    "correctAnswer": "a:Đ, b:Đ, c:S, d:Đ"
+  },
+  {
+    "topic": "TOPIC_1_4",
+    "id": "Q19_T4",
+    "code": "Q19-2024",
+    "source": "[Nguồn: Đề thi thử Tốt nghiệp THPT Chuyên Phan Bội Châu Nghệ An 2024 - Câu 38]",
+    "difficulty": "VD",
+    "type": "SHORT_ANSWER",
+    "content": "Tìm tổng số đường tiệm cận (bao gồm cả đứng và ngang) của đồ thị hàm số $y = \\frac{\\sqrt{x^2 - 1}}{x - 2}$.",
+    "correctAnswer": "3"
+  },
+  {
+    "topic": "TOPIC_1_4",
+    "id": "Q20_T4",
+    "code": "Q20-2024",
+    "source": "[Nguồn: Đề thi thử Tốt nghiệp THPT 2024 Chuyên Lam Sơn Thanh Hóa - Câu 40]",
+    "difficulty": "VDC",
+    "type": "MULTIPLE_CHOICE",
+    "content": "Có bao nhiêu giá trị nguyên của tham số $m \\in [-5; 5]$ để đồ thị hàm số $y = \\frac{x - 1}{x^2 - 2mx + m + 2}$ có đúng 2 đường tiệm cận đứng?",
+    "correctAnswer": "D"
+  },
+  {
+    "topic": "TOPIC_1_5",
+    "id": "Q21_T5",
+    "code": "Q21-2023",
+    "source": "[Nguồn: Đề thi tốt nghiệp THPT chính thức Bộ GD&ĐT 2023 - Mã đề 104 - Câu 5]",
+    "difficulty": "NB",
+    "type": "MULTIPLE_CHOICE",
+    "content": "Cho hàm số bậc ba $y = ax^3 + bx^2 + cx + d$ ($a \\ne 0$) có đồ thị đạt cực đại tại $(-1; 2)$, đạt cực tiểu tại $(1; -2)$ và đi qua gốc tọa độ $O(0; 0)$. Hàm số đã cho là:",
+    "correctAnswer": "A"
+  },
+  {
+    "topic": "TOPIC_1_5",
+    "id": "Q22_T5",
+    "code": "Q22-2024",
+    "source": "[Nguồn: Đề thi tốt nghiệp THPT chính thức Bộ GD&ĐT 2024 - Mã đề 101 - Câu 22]",
+    "difficulty": "TH",
+    "type": "MULTIPLE_CHOICE",
+    "content": "Cho hàm số $y = f(x)$ có bảng biến thiên với $y_{CD} = 2$ (tại $x = -1$) và $y_{CT} = -2$ (tại $x = 1$). Số nghiệm thực của phương trình $2f(x) - 3 = 0$ là:",
+    "correctAnswer": "D"
+  },
+  {
+    "topic": "TOPIC_1_5",
+    "id": "Q23_T5",
+    "code": "Q23-2025",
+    "source": "[Nguồn: Đề tham khảo Tốt nghiệp THPT 2025 Bộ GD&ĐT - Cấu trúc trắc nghiệm đúng sai]",
+    "difficulty": "TH",
+    "type": "TRUE_FALSE",
+    "content": "Cho hàm số $y = \\frac{2x - 2}{x + 1}$. Xét tính đúng/sai của các khẳng định sau:",
+    "correctAnswer": "a:Đ, b:Đ, c:Đ, d:Đ"
+  },
+  {
+    "topic": "TOPIC_1_5",
+    "id": "Q24_T5",
+    "code": "Q24-2024",
+    "source": "[Nguồn: Đề Khảo sát chất lượng Toán 12 Sở GD&ĐT Bắc Ninh 2024 - Câu 42]",
+    "difficulty": "VD",
+    "type": "MULTIPLE_CHOICE",
+    "content": "Tìm tất cả các giá trị của $m$ để đường thẳng $d: y = -x + m$ cắt đồ thị $(C): y = \\frac{2x + 1}{x - 1}$ tại hai điểm phân biệt $A, B$.",
+    "correctAnswer": "A"
+  },
+  {
+    "topic": "TOPIC_1_5",
+    "id": "Q25_T5",
+    "code": "Q25-2024",
+    "source": "[Nguồn: Đề thi thử THPT Chuyên ĐH Sư Phạm Hà Nội 2024 - Câu 49]",
+    "difficulty": "VDC",
+    "type": "SHORT_ANSWER",
+    "content": "Có bao nhiêu giá trị nguyên của tham số $m \\in [-10; 10]$ để đồ thị hàm số $y = x^3 - 3x^2 + 2$ cắt đường thẳng $y = m$ tại đúng 3 điểm phân biệt?",
+    "correctAnswer": "3"
+  },
+  {
+    "topic": "TOPIC_1_6",
+    "id": "Q26_T6",
+    "code": "Q26-2024",
+    "source": "[Nguồn: Đề Khảo sát chất lượng Toán 12 Sở GD&ĐT Hải Phòng 2024 - Câu 25]",
+    "difficulty": "NB",
+    "type": "MULTIPLE_CHOICE",
+    "content": "Một doanh nghiệp sản xuất một loại sản phẩm với hàm chi phí $C(x) = 2x^2 + 50x + 1800$ (nghìn đồng), trong đó $x > 0$ là số sản phẩm sản xuất. Hàm chi phí trung bình là $\\bar{C}(x) = \\frac{C(x)}{x}$. Để chi phí trung bình trên mỗi sản phẩm là thấp nhất, doanh nghiệp nên sản xuất bao nhiêu sản phẩm?",
+    "correctAnswer": "A"
+  },
+  {
+    "topic": "TOPIC_1_6",
+    "id": "Q27_T6",
+    "code": "Q27-2024",
+    "source": "[Nguồn: Đề Khảo sát chất lượng Toán 12 Sở GD&ĐT Hà Nội 2024 - Câu 28]",
+    "difficulty": "TH",
+    "type": "MULTIPLE_CHOICE",
+    "content": "Một miếng tôn hình vuông cạnh 60 cm. Người ta cắt bỏ 4 góc bốn hình vuông nhỏ bằng nhau cạnh $x$ (cm) rồi gập lại để làm thành một chiếc hộp hình hộp chữ nhật không nắp. Chiều cao $x$ bằng bao nhiêu để thể tích chiếc hộp đạt giá trị lớn nhất?",
+    "correctAnswer": "A"
+  },
+  {
+    "topic": "TOPIC_1_6",
+    "id": "Q28_T6",
+    "code": "Q28-2025",
+    "source": "[Nguồn: Đề tham khảo Tốt nghiệp THPT 2025 Bộ GD&ĐT - Cấu trúc trắc nghiệm đúng/sai]",
+    "difficulty": "VD",
+    "type": "TRUE_FALSE",
+    "content": "Một công ty dự tính giá bán của một loại sản phẩm là $p(x) = 120 - 0{,}5x$ (nghìn đồng) khi bán ra $x$ sản phẩm ($0 \\le x \\le 240$). Tổng chi phí sản xuất là $C(x) = 20x + 500$ (nghìn đồng). Xét tính đúng/sai:",
+    "correctAnswer": "a:Đ, b:Đ, c:Đ, d:Đ"
+  },
+  {
+    "topic": "TOPIC_1_6",
+    "id": "Q29_T6",
+    "code": "Q29-2024",
+    "source": "[Nguồn: Đề thi thử Tốt nghiệp THPT 2024 Chuyên Lam Sơn Thanh Hóa - Câu 46]",
+    "difficulty": "VD",
+    "type": "MULTIPLE_CHOICE",
+    "content": "Một chiếc bể bơi dạng hình hộp chữ nhật có đáy là hình vuông, thể tích cần chứa là $32\\text{ m}^3$. Chi phí ốp gạch men cho đáy bể là 150.000 đồng/m$^2$ và cho 4 thành xung quanh là 100.000 đồng/m$^2$. Chiều cao bể bơi bằng bao nhiêu để tổng chi phí ốp lát là nhỏ nhất?",
+    "correctAnswer": "A"
+  },
+  {
+    "topic": "TOPIC_1_6",
+    "id": "Q30_T6",
+    "code": "Q30-2024",
+    "source": "[Nguồn: Đề Khảo sát chất lượng Toán 12 Sở GD&ĐT Nam Định 2024 - Câu 50]",
+    "difficulty": "VDC",
+    "type": "SHORT_ANSWER",
+    "content": "Một đường ống dẫn dầu nối từ giàn khoan ngoài biển cách bờ 4 km đến một nhà máy lọc dầu trên bờ biển. Khoảng cách hình chiếu trên bờ biển từ điểm đối diện giàn khoan đến nhà máy là 9 km. Chi phí đặt ống ngầm dưới biển là 5 triệu USD/km, trên đất liền là 3 triệu USD/km. Để chi phí lắp đặt thấp nhất, đường ống nên nối vào bờ cách điểm đối diện giàn khoan bao nhiêu km?",
+    "correctAnswer": "3"
+  },
+  {
+    "topic": "TOPIC_2_1",
+    "id": "Q31_T7",
+    "code": "Q31-2023",
+    "source": "[Nguồn: Đề thi tốt nghiệp THPT chính thức Bộ GD&ĐT 2023 - Mã đề 101 - Câu 15]",
+    "difficulty": "NB",
+    "type": "MULTIPLE_CHOICE",
+    "content": "Cho tứ diện $ABCD$. Gọi $G$ là trọng tâm của tam giác $BCD$. Khẳng định nào sau đây là đúng?",
+    "correctAnswer": "A"
+  },
+  {
+    "topic": "TOPIC_2_1",
+    "id": "Q32_T7",
+    "code": "Q32-2024",
+    "source": "[Nguồn: Đề thi thử Tốt nghiệp THPT 2024 Chuyên ĐH Sư Phạm Hà Nội - Câu 18]",
+    "difficulty": "TH",
+    "type": "MULTIPLE_CHOICE",
+    "content": "Cho hình lập phương $ABCD.A'B'C'D'$ có cạnh bằng $a$. Tích vô hướng $\\vec{AB} \\cdot \\vec{A'C'}$ bằng:",
+    "correctAnswer": "A"
+  },
+  {
+    "topic": "TOPIC_2_1",
+    "id": "Q33_T7",
+    "code": "Q33-2025",
+    "source": "[Nguồn: Đề tham khảo Tốt nghiệp THPT 2025 Bộ GD&ĐT - Phần Vectơ không gian]",
+    "difficulty": "TH",
+    "type": "TRUE_FALSE",
+    "content": "Cho hình lăng trụ tam giác $ABC.A'B'C'$. Đặt $\\vec{u} = \\vec{AA'}, \\vec{v} = \\vec{AB}, \\vec{w} = \\vec{AC}$. Xét tính đúng/sai:",
+    "correctAnswer": "a:Đ, b:Đ, c:S, d:Đ"
+  },
+  {
+    "topic": "TOPIC_2_1",
+    "id": "Q34_T7",
+    "code": "Q34-2024",
+    "source": "[Nguồn: Đề Khảo sát chất lượng Toán 12 Sở GD&ĐT Hải Phòng 2024 - Câu 31]",
+    "difficulty": "VD",
+    "type": "MULTIPLE_CHOICE",
+    "content": "Cho hình chóp $S.ABC$ có $SA \\perp SB, SB \\perp SC, SC \\perp SA$ và $SA = SB = SC = a$. Gọi $M$ là trung điểm của $AB$. Góc giữa hai vectơ $\\vec{SM}$ và $\\vec{SC}$ bằng:",
+    "correctAnswer": "A"
+  },
+  {
+    "topic": "TOPIC_2_1",
+    "id": "Q35_T7",
+    "code": "Q35-2024",
+    "source": "[Nguồn: Đề thi thử Tốt nghiệp THPT 2024 Chuyên ĐH Sư Phạm Hà Nội - Câu 47]",
+    "difficulty": "VDC",
+    "type": "SHORT_ANSWER",
+    "content": "Cho tứ diện $ABCD$ có $AB \\perp CD$ và $AC \\perp BD$. Gọi $\\alpha$ là góc giữa hai vectơ $\\vec{AD}$ và $\\vec{BC}$. Số đo góc $\\alpha$ bằng bao nhiêu độ?",
+    "correctAnswer": "90"
+  },
+  {
+    "topic": "TOPIC_2_2",
+    "id": "Q36_T8",
+    "code": "Q36-2024",
+    "source": "[Nguồn: Đề thi tốt nghiệp THPT chính thức Bộ GD&ĐT 2024 - Mã đề 101 - Câu 10]",
+    "difficulty": "NB",
+    "type": "MULTIPLE_CHOICE",
+    "content": "Trong không gian $Oxyz$, cho điểm $A(1; 2; -3)$. Tọa độ của vectơ $\\vec{OA}$ là:",
+    "correctAnswer": "A"
+  },
+  {
+    "topic": "TOPIC_2_2",
+    "id": "Q37_T8",
+    "code": "Q37-2024",
+    "source": "[Nguồn: Đề thi tốt nghiệp THPT chính thức Bộ GD&ĐT 2024 - Mã đề 102 - Câu 18]",
+    "difficulty": "TH",
+    "type": "MULTIPLE_CHOICE",
+    "content": "Trong không gian $Oxyz$, cho hai điểm $A(1; 1; -2)$ và $B(3; -1; 2)$. Tọa độ của vectơ $\\vec{AB}$ là:",
+    "correctAnswer": "A"
+  },
+  {
+    "topic": "TOPIC_2_2",
+    "id": "Q38_T8",
+    "code": "Q38-2025",
+    "source": "[Nguồn: Đề tham khảo Tốt nghiệp THPT 2025 Bộ GD&ĐT - Phần Hình không gian Oxyz]",
+    "difficulty": "TH",
+    "type": "MULTIPLE_CHOICE",
+    "content": "Trong không gian $Oxyz$, cho hai vectơ $\\vec{u} = (1; -2; 2)$ và $\\vec{v} = (2; 1; -1)$. Tích vô hướng $\\vec{u} \\cdot \\vec{v}$ bằng:",
+    "correctAnswer": "A"
+  },
+  {
+    "topic": "TOPIC_2_2",
+    "id": "Q39_T8",
+    "code": "Q39-2024",
+    "source": "[Nguồn: Đề thi tốt nghiệp THPT chính thức Bộ GD&ĐT 2024 - Mã đề 104 - Câu 24]",
+    "difficulty": "TH",
+    "type": "SHORT_ANSWER",
+    "content": "Trong không gian $Oxyz$, cho tam giác $MNP$ có $M(2; 1; -3)$, $N(4; -2; 1)$ và $P(-3; 4; 5)$. Gọi $G$ là trọng tâm của tam giác $MNP$. Tìm cao độ $z_G$ của điểm $G$.",
+    "correctAnswer": "1"
+  },
+  {
+    "topic": "TOPIC_2_2",
+    "id": "Q40_T8",
+    "code": "Q40-2024",
+    "source": "[Nguồn: Đề Khảo sát chất lượng Toán 12 Sở GD&ĐT Hà Nội 2024 - Câu 34]",
+    "difficulty": "VD",
+    "type": "MULTIPLE_CHOICE",
+    "content": "Trong không gian $Oxyz$, cho hai điểm $A(1; 2; 3)$ và $B(5; 4; -1)$. Điểm $M$ thuộc đoạn thẳng $AB$ sao cho $AM = 2MB$. Tọa độ điểm $M$ là:",
+    "correctAnswer": "A"
+  },
+  {
+    "topic": "TOPIC_2_3",
+    "id": "Q41_T9",
+    "code": "Q41-2024",
+    "source": "[Nguồn: Đề thi tốt nghiệp THPT chính thức Bộ GD&ĐT 2024 - Mã đề 104 - Câu 15]",
+    "difficulty": "NB",
+    "type": "MULTIPLE_CHOICE",
+    "content": "Trong không gian $Oxyz$, cho hai vectơ $\\vec{u} = (1; 2; 3)$ và $\\vec{v} = (0; 1; -1)$. Tọa độ của vectơ tích có hướng $[\\vec{u}, \\vec{v}]$ là:",
+    "correctAnswer": "A"
+  },
+  {
+    "topic": "TOPIC_2_3",
+    "id": "Q42_T9",
+    "code": "Q42-2024",
+    "source": "[Nguồn: Đề Khảo sát chất lượng Toán 12 Sở GD&ĐT Bắc Ninh 2024 - Câu 36]",
+    "difficulty": "TH",
+    "type": "MULTIPLE_CHOICE",
+    "content": "Trong không gian $Oxyz$, cho tam giác $ABC$ với $A(1; 0; 0)$, $B(0; 2; 0)$, $C(0; 0; 3)$. Diện tích tam giác $ABC$ bằng:",
+    "correctAnswer": "A"
+  },
+  {
+    "topic": "TOPIC_2_3",
+    "id": "Q43_T9",
+    "code": "Q43-2024",
+    "source": "[Nguồn: Đề thi thử Tốt nghiệp THPT 2024 Chuyên Phan Bội Châu Nghệ An - Câu 48]",
+    "difficulty": "TH",
+    "type": "SHORT_ANSWER",
+    "content": "Trong không gian $Oxyz$, cho tứ diện $ABCD$ với $A(2; 0; 0)$, $B(0; 4; 0)$, $C(0; 0; 6)$ và $D(2; 4; 6)$. Thể tích khối tứ diện $ABCD$ bằng bao nhiêu?",
+    "correctAnswer": "16"
+  },
+  {
+    "topic": "TOPIC_2_3",
+    "id": "Q44_T9",
+    "code": "Q44-2025",
+    "source": "[Nguồn: Đề tham khảo Tốt nghiệp THPT 2025 Bộ GD&ĐT - Cấu trúc trắc nghiệm đúng sai]",
+    "difficulty": "VD",
+    "type": "TRUE_FALSE",
+    "content": "Trong không gian $Oxyz$, cho bốn điểm $A(1; 1; 1)$, $B(2; 3; 4)$, $C(3; 5; 7)$ và $D(0; 2; 3)$. Xét tính đúng/sai:",
+    "correctAnswer": "a:Đ, b:Đ, c:S, d:Đ"
+  },
+  {
+    "topic": "TOPIC_2_3",
+    "id": "Q45_T9",
+    "code": "Q45-2024",
+    "source": "[Nguồn: Đề thi thử Tốt nghiệp THPT 2024 Chuyên ĐH Sư Phạm Hà Nội - Câu 44]",
+    "difficulty": "VDC",
+    "type": "MULTIPLE_CHOICE",
+    "content": "Trong không gian $Oxyz$, cho hai đường thẳng chéo nhau $d_1, d_2$ có vectơ chỉ phương lần lượt là $\\vec{u}_1 = (1; 0; -1), \\vec{u}_2 = (0; 1; 1)$ và điểm $M_1(1; 0; 0) \\in d_1, M_2(0; 2; 0) \\in d_2$. Khoảng cách giữa hai đường thẳng $d_1$ và $d_2$ bằng:",
+    "correctAnswer": "A"
+  },
+  {
+    "topic": "TOPIC_3_1",
+    "id": "Q46_T10",
+    "code": "Q46-2024",
+    "source": "[Nguồn: Đề thi thử Tốt nghiệp THPT 2024 Chuyên Lam Sơn Thanh Hóa - Câu 31]",
+    "difficulty": "NB",
+    "type": "MULTIPLE_CHOICE",
+    "content": "Trong không gian với hệ tọa độ $Oxyz$, một căn phòng có dạng hình hộp chữ nhật với kích thước sàn nhà là 6 m $\\times$ 8 m và chiều cao là 4 m. Chọn gốc tọa độ $O(0; 0; 0)$ tại một góc sàn nhà, tia $Ox$ dọc theo chiều rộng (6 m), tia $Oy$ dọc theo chiều dài (8 m), tia $Oz$ hướng thẳng đứng lên trần nhà (4 m). Một chiếc quạt trần được treo tại chính giữa trần nhà. Tọa độ của vị trí chiếc quạt trần là:",
+    "correctAnswer": "A"
+  },
+  {
+    "topic": "TOPIC_3_1",
+    "id": "Q47_T10",
+    "code": "Q47-2024",
+    "source": "[Nguồn: Đề Khảo sát chất lượng Toán 12 Sở GD&ĐT Nam Định 2024 - Câu 47]",
+    "difficulty": "TH",
+    "type": "MULTIPLE_CHOICE",
+    "content": "Trong không gian $Oxyz$, một chiếc tàu ngầm đang di chuyển theo đường thẳng từ vị trí $A(2; 3; -4)$ đến vị trí $B(8; 11; -4)$ (đơn vị: hải lý, trục $Oz$ hướng thẳng đứng lên trên, mặt biển nằm trên mặt phẳng $z = 0$). Một trạm định vị sóng âm đặt tại điểm $M(5; 7; 0)$ trên mặt nước biển. Khoảng cách ngắn nhất từ tàu ngầm đến trạm định vị $M$ trong quá trình di chuyển bằng bao nhiêu hải lý?",
+    "correctAnswer": "A"
+  },
+  {
+    "topic": "TOPIC_3_1",
+    "id": "Q48_T10",
+    "code": "Q48-2025",
+    "source": "[Nguồn: Đề tham khảo Tốt nghiệp THPT 2025 Bộ GD&ĐT - Cấu trúc trắc nghiệm đúng/sai]",
+    "difficulty": "VD",
+    "type": "TRUE_FALSE",
+    "content": "Một chiếc drone bay theo quỹ đạo thẳng từ $A(1; 0; 2)$ đến $B(3; 4; 6)$ trong hệ tọa độ $Oxyz$ (đơn vị: trăm mét). Tọa độ vị trí drone tại thời điểm $t \\in [0; 1]$ là $M(1 + 2t; 4t; 2 + 4t)$. Một trạm radar đặt tại điểm $C(2; 1; 1)$. Xét tính đúng/sai:",
+    "correctAnswer": "a:Đ, b:Đ, c:Đ, d:Đ"
+  },
+  {
+    "topic": "TOPIC_3_1",
+    "id": "Q49_T10",
+    "code": "Q49-2024",
+    "source": "[Nguồn: Đề Khảo sát chất lượng Toán 12 Sở GD&ĐT Bắc Ninh 2024 - Câu 50]",
+    "difficulty": "VDC",
+    "type": "SHORT_ANSWER",
+    "content": "Một đường ống dẫn khí đốt nối từ trạm cung cấp tại $A(0; 2; 3)$ đến trạm tiêu thụ tại $B(6; 8; 5)$ trong hệ tọa độ $Oxyz$ (đơn vị: km). Đường ống phải đi qua một điểm trung chuyển $P$ nằm trên mặt đất $(Oxy): z = 0$. Tìm độ dài ngắn nhất của tuyến ống dẫn khí $AP + PB$ (làm tròn đến chữ số thập phân thứ nhất).",
+    "correctAnswer": "11.7"
+  },
+  {
+    "topic": "TOPIC_3_1",
+    "id": "Q50_T10",
+    "code": "Q50-2024",
+    "source": "[Nguồn: Đề thi thử THPT Chuyên Phan Bội Châu Nghệ An 2024 - Câu 50]",
+    "difficulty": "VDC",
+    "type": "MULTIPLE_CHOICE",
+    "content": "Trong không gian $Oxyz$, một vệ tinh viễn thông $S$ bay trên quỹ đạo có tọa độ thỏa mãn mặt cầu $(x - 1)^2 + (y - 2)^2 + (z - 3)^2 = 9$. Một trạm thu sóng mặt đất đặt tại điểm $M(4; 6; 3)$. Khoảng cách ngắn nhất từ trạm thu sóng $M$ đến vệ tinh $S$ bằng:",
+    "correctAnswer": "A"
+  }
+]

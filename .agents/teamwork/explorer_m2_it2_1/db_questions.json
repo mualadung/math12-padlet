@@ -1,0 +1,332 @@
+[
+  {
+    "code": "CH1_D1_NB01",
+    "sourceExam": "Đề thi tốt nghiệp THPT chính thức Bộ GD&ĐT 2024 - Mã đề 101 - Câu 1",
+    "content": "Cho hàm số $y = f(x)$ có bảng biến thiên như sau:\n\nHàm số đã cho đồng biến trên khoảng nào dưới đây?",
+    "correctAnswer": "B"
+  },
+  {
+    "code": "CH1_D2_VD01",
+    "sourceExam": "Đề tham khảo kỳ thi tốt nghiệp THPT 2025 Bộ GD&ĐT - Môn Toán - Câu 28",
+    "content": "Một công ty sản xuất một loại cốc thủy tinh. Chi phí sản xuất $x$ chiếc cốc (tính bằng triệu đồng) được cho bởi hàm số $C(x) = 200 + 0{,}05x + \\frac{5000}{x}$ với $x \\in [50; 500]$. Tìm số lượng cốc cần sản xuất để chi phí sản xuất trung bình cho mỗi chiếc cốc đạt giá trị nhỏ nhất.",
+    "correctAnswer": "B"
+  },
+  {
+    "code": "CH1_D3_TH01",
+    "sourceExam": "Đề Khảo sát chất lượng Toán 12 Sở GD&ĐT Hà Nội 2024 - Câu 31",
+    "content": "Tổng số đường tiệm cận đứng và tiệm cận xiên của đồ thị hàm số $y = \\frac{x^2 - 3x + 2}{x - 1}$ là bao nhiêu?",
+    "correctAnswer": "A"
+  },
+  {
+    "code": "CH2_D6_TF01",
+    "sourceExam": "Đề thi thử Tốt nghiệp THPT 2025 Chuyên Lam Sơn - Thanh Hóa - Đề số 1",
+    "content": "Trong không gian $Oxyz$, cho ba điểm $A(1; 0; 2)$, $B(2; -1; 3)$ và $C(0; 2; 1)$. Xét tính đúng/sai của các mệnh đề sau:",
+    "correctAnswer": "{\"a\":true,\"b\":false,\"c\":true,\"d\":true}"
+  },
+  {
+    "code": "CH12_D7_SA01",
+    "sourceExam": "Đề Khảo sát chất lượng kết hợp Giải tích - Hình học Sở GD&ĐT Nghệ An 2024 - Câu 48",
+    "content": "Một trạm phát sóng vi ba đặt tại điểm $A(2; 4; 5)$ trong hệ tọa độ không gian $Oxyz$ (đơn vị: km). Một máy bay bay theo đường thẳng từ điểm $B(0; 10; 2)$ đến điểm $C(6; 1; 8)$. Hỏi khoảng cách ngắn nhất từ máy bay đến trạm phát sóng $A$ trong quá trình bay là bao nhiêu km? (Kết quả làm tròn đến chữ số thập phân thứ hai).",
+    "correctAnswer": "3.48"
+  },
+  {
+    "code": "Q01_D1_MC",
+    "sourceExam": "Đề thi tốt nghiệp THPT chính thức Bộ GD&ĐT 2024 - Mã đề 102 - Câu 15",
+    "content": "Cho hàm số $y = f(x)$ có đạo hàm $f'(x) = x(x - 2)^2(x + 3)$ với mọi $x \\in \\mathbb{R}$. Số điểm cực trị của hàm số đã cho là:",
+    "correctAnswer": "B"
+  },
+  {
+    "code": "Q02_D1_MC",
+    "sourceExam": "Đề Khảo sát chất lượng Toán 12 Sở GD&ĐT Nam Định 2024 - Câu 8",
+    "content": "Hàm số $y = \\frac{2x - 1}{x + 1}$ đồng biến trên khoảng nào dưới đây?",
+    "correctAnswer": "A"
+  },
+  {
+    "code": "Q03_D1_TF",
+    "sourceExam": "Đề tham khảo Tốt nghiệp THPT 2025 Bộ GD&ĐT - Phần Đúng/Sai - Câu 1",
+    "content": "Cho hàm số bậc ba $y = f(x) = x^3 - 3x^2 + 2$. Xét tính đúng/sai của các khẳng định sau:",
+    "correctAnswer": "{\"a\":false,\"b\":true,\"c\":true,\"d\":true}"
+  },
+  {
+    "code": "Q04_D1_SA",
+    "sourceExam": "Đề thi thử Tốt nghiệp THPT 2025 Chuyên ĐH Sư Phạm Hà Nội - Lần 1",
+    "content": "Tìm số giá trị nguyên của tham số $m \\in [-10; 10]$ để hàm số $y = \\frac{1}{3}x^3 - mx^2 + (m^2 - 4)x + 1$ đạt cực đại tại một điểm và đạt cực tiểu tại một điểm sao cho hoành độ cực đại nhỏ hơn hoành độ cực tiểu.",
+    "correctAnswer": "21"
+  },
+  {
+    "code": "Q05_D1_MC",
+    "sourceExam": "Đề thi tốt nghiệp THPT Bộ GD&ĐT 2024 - Câu 42",
+    "content": "Cho hàm số $y = f(x)$ liên tục trên $\\mathbb{R}$ có bảng xét dấu của đạo hàm $f'(x)$ như sau:\n\nHàm số $g(x) = f(1 - 2x)$ đồng biến trên khoảng nào dưới đây?",
+    "correctAnswer": "A"
+  },
+  {
+    "code": "Q06_D2_MC",
+    "sourceExam": "Đề thi tốt nghiệp THPT chính thức Bộ GD&ĐT 2024 - Mã đề 104 - Câu 12",
+    "content": "Giá trị nhỏ nhất của hàm số $f(x) = x^4 - 2x^2 + 3$ trên đoạn $[0; 2]$ bằng:",
+    "correctAnswer": "A"
+  },
+  {
+    "code": "Q07_D2_MC",
+    "sourceExam": "Đề Khảo sát chất lượng Sở GD&ĐT Bắc Ninh 2024 - Câu 19",
+    "content": "Giá trị lớn nhất của hàm số $y = x + \\frac{4}{x}$ trên đoạn $[1; 4]$ bằng:",
+    "correctAnswer": "B"
+  },
+  {
+    "code": "Q08_D2_TF",
+    "sourceExam": "Đề tham khảo Tốt nghiệp THPT 2025 Bộ GD&ĐT - Dạng thực tế nuôi trồng thủy sản",
+    "content": "Một hộ nông dân nuôi tôm thẻ chân trắng. Doanh thu sau $t$ tháng thả nuôi được ước tính bởi hàm số $R(t) = -t^3 + 12t^2 + 60t$ (triệu đồng), chi phí chăm sóc thức ăn ước tính $C(t) = 3t^2 + 15t + 20$ (triệu đồng) với thời gian nuôi $t \\in [1; 8]$. Lợi nhuận thu được là $P(t) = R(t) - C(t)$. Xét tính đúng/sai:",
+    "correctAnswer": "{\"a\":true,\"b\":true,\"c\":true,\"d\":true}"
+  },
+  {
+    "code": "Q09_D2_SA",
+    "sourceExam": "Đề Khảo sát chất lượng Toán 12 Sở GD&ĐT Nghệ An 2024 - Câu 45",
+    "content": "Một xưởng cơ khí cần làm một thùng chứa hình trụ bằng tôn không có nắp đậy với thể tích $V = 54\\pi$ lít ($0{,}054\\pi\\text{ m}^3$). Để tiết kiệm chi phí, người thợ cần làm thùng sao cho diện tích tôn sử dụng (diện tích toàn phần không nắp) là nhỏ nhất. Hỏi bán kính đáy $R$ của thùng phải bằng bao nhiêu decimét (dm)?",
+    "correctAnswer": "3"
+  },
+  {
+    "code": "Q10_D3_MC",
+    "sourceExam": "Đề thi tốt nghiệp THPT chính thức Bộ GD&ĐT 2024 - Mã đề 101 - Câu 4",
+    "content": "Đường tiệm cận đứng của đồ thị hàm số $y = \\frac{3x + 1}{x - 2}$ có phương trình là:",
+    "correctAnswer": "A"
+  },
+  {
+    "code": "Q11_D3_MC",
+    "sourceExam": "Đề minh họa Cấu trúc mới 2025 SGK Kết nối tri thức - Phần Khảo sát hàm số",
+    "content": "Phương trình đường tiệm cận xiên của đồ thị hàm số $y = \\frac{2x^2 - 3x + 5}{x - 1}$ là:",
+    "correctAnswer": "A"
+  },
+  {
+    "code": "Q12_D3_TF",
+    "sourceExam": "Đề Khảo sát chất lượng Toán 12 Sở GD&ĐT Hà Nội 2024 - Câu 33",
+    "content": "Cho hàm số $y = f(x) = \\frac{x^2 - x - 2}{x^2 - 4}$. Xét tính đúng/sai của các mệnh đề sau:",
+    "correctAnswer": "{\"a\":true,\"b\":false,\"c\":true,\"d\":true}"
+  },
+  {
+    "code": "Q13_D3_SA",
+    "sourceExam": "Đề thi thử Tốt nghiệp THPT Chuyên Phan Bội Châu - Nghệ An 2024 - Câu 38",
+    "content": "Tìm số đường tiệm cận (bao gồm cả đứng và ngang) của đồ thị hàm số $y = \\frac{\\sqrt{x^2 - 1}}{x - 2}$.",
+    "correctAnswer": "3"
+  },
+  {
+    "code": "Q14_D4_MC",
+    "sourceExam": "Đề thi tốt nghiệp THPT chính thức Bộ GD&ĐT 2024 - Mã đề 103 - Câu 7",
+    "content": "Đường cong trong hình vẽ bên là đồ thị của hàm số nào dưới đây?\n(Biết đồ thị có dạng chữ N ngược, đi qua điểm $(0; 1)$ và có 2 điểm cực trị tại $x = -1$ và $x = 1$)",
+    "correctAnswer": "A"
+  },
+  {
+    "code": "Q15_D4_MC",
+    "sourceExam": "Đề thi tốt nghiệp THPT chính thức Bộ GD&ĐT 2024 - Mã đề 101 - Câu 22",
+    "content": "Cho hàm số $y = f(x)$ có bảng biến thiên với các giá trị cực trị là $y_{CD} = 2$ (tại $x = -1$) và $y_{CT} = -2$ (tại $x = 1$). Số nghiệm thực của phương trình $2f(x) - 3 = 0$ là:",
+    "correctAnswer": "D"
+  },
+  {
+    "code": "Q16_D4_TF",
+    "sourceExam": "Đề tham khảo Tốt nghiệp THPT 2025 Bộ GD&ĐT - Cấu trúc trắc nghiệm đúng sai",
+    "content": "Cho hàm số $y = \\frac{ax + b}{cx + d}$ ($c \\ne 0, ad - bc \\ne 0$) có đồ thị cắt trục tung tại điểm $(0; -2)$, cắt trục hoành tại điểm $(1; 0)$ và có tiệm cận đứng $x = -1$, tiệm cận ngang $y = 2$. Xét tính đúng/sai:",
+    "correctAnswer": "{\"a\":true,\"b\":true,\"c\":true,\"d\":true}"
+  },
+  {
+    "code": "Q17_D5_MC",
+    "sourceExam": "Đề thi tốt nghiệp THPT chính thức Bộ GD&ĐT 2024 - Mã đề 102 - Câu 6",
+    "content": "Cho hình hộp $ABCD.A'B'C'D'$. Khẳng định nào sau đây là đúng về quy tắc hình hộp?",
+    "correctAnswer": "A"
+  },
+  {
+    "code": "Q18_D5_MC",
+    "sourceExam": "Đề thi thử Tốt nghiệp THPT 2024 Trường Chuyên Lam Sơn - Thanh Hóa",
+    "content": "Cho tứ diện đều $ABCD$ có cạnh bằng $a$. Tích vô hướng $\\vec{AB} \\cdot \\vec{AC}$ bằng:",
+    "correctAnswer": "A"
+  },
+  {
+    "code": "Q19_D5_TF",
+    "sourceExam": "Đề Khảo sát chất lượng THPT Sở GD&ĐT Hải Phòng 2024 - Câu 30",
+    "content": "Cho hình lăng trụ tam giác $ABC.A'B'C'$. Gọi $M$ là trung điểm của cạnh $BB'$. Đặt $\\vec{u} = \\vec{AA'}, \\vec{v} = \\vec{AB}, \\vec{w} = \\vec{AC}$. Xét tính đúng/sai:",
+    "correctAnswer": "{\"a\":true,\"b\":false,\"c\":true,\"d\":false}"
+  },
+  {
+    "code": "Q20_D6_MC",
+    "sourceExam": "Đề thi tốt nghiệp THPT chính thức Bộ GD&ĐT 2024 - Mã đề 101 - Câu 2",
+    "content": "Trong không gian $Oxyz$, cho hai điểm $A(1; 2; -3)$ và $B(3; 0; 1)$. Tọa độ của vectơ $\\vec{AB}$ là:",
+    "correctAnswer": "A"
+  },
+  {
+    "code": "Q21_D6_MC",
+    "sourceExam": "Đề thi tốt nghiệp THPT chính thức Bộ GD&ĐT 2024 - Mã đề 104 - Câu 18",
+    "content": "Trong không gian $Oxyz$, góc giữa hai vectơ $\\vec{u} = (1; 0; 1)$ và $\\vec{v} = (0; 1; 1)$ bằng:",
+    "correctAnswer": "A"
+  },
+  {
+    "code": "Q22_D6_TF",
+    "sourceExam": "Đề Khảo sát chất lượng Toán 12 Sở GD&ĐT Hà Nội 2024 - Câu 39",
+    "content": "Trong không gian $Oxyz$, cho bốn điểm $A(1; 0; 0)$, $B(0; 2; 0)$, $C(0; 0; 3)$ và $D(2; 2; 3)$. Xét tính đúng/sai:",
+    "correctAnswer": "{\"a\":true,\"b\":true,\"c\":false,\"d\":true}"
+  },
+  {
+    "code": "Q23_D6_SA",
+    "sourceExam": "Đề thi tốt nghiệp THPT chính thức Bộ GD&ĐT 2024 - Mã đề 103 - Câu 5",
+    "content": "Trong không gian $Oxyz$, cho tam giác $ABC$ có $A(1; 2; 3)$, $B(3; 0; 1)$ và $C(-1; 4; 5)$. Tìm tọa độ tung độ $y_G$ của trọng tâm $G$ của tam giác $ABC$.",
+    "correctAnswer": "2"
+  },
+  {
+    "code": "Q24_D7_MC",
+    "sourceExam": "Đề Khảo sát chất lượng Toán 12 Sở GD&ĐT Nghệ An 2024 - Câu 47",
+    "content": "Trong không gian $Oxyz$, một khinh khí cầu bay theo đường thẳng từ điểm $A(1; 2; 3)$ đến điểm $B(4; 6; 3)$ với vận tốc không đổi (đơn vị: km). Một trạm phát sóng đặt tại gốc tọa độ $O(0; 0; 0)$. Khoảng cách ngắn nhất từ khinh khí cầu đến trạm phát sóng $O$ trong hành trình bay là:",
+    "correctAnswer": "C"
+  },
+  {
+    "code": "Q25_D7_TF",
+    "sourceExam": "[Đề xuất mới theo SGK Kết nối tri thức - Chờ giáo viên bộ môn duyệt]",
+    "content": "Một chiếc máy bay không người lái (drone) bay theo quỹ đạo thẳng từ điểm $A(1; 0; 2)$ đến điểm $B(3; 4; 6)$ trong hệ tọa độ $Oxyz$ (đơn vị: trăm mét). Cùng thời điểm đó, một radar phòng không đặt tại điểm $C(2; 1; 1)$ quét phát hiện mục tiêu. Tọa độ vị trí của drone được mô tả bởi $M(1 + 2t; 4t; 2 + 4t)$ với $t \\in [0; 1]$. Xét tính đúng/sai:",
+    "correctAnswer": "{\"a\":true,\"b\":true,\"c\":true,\"d\":true}"
+  },
+  {
+    "code": "Q26_D7_SA",
+    "sourceExam": "Đề Khảo sát chất lượng kết hợp Giải tích - Hình học Sở GD&ĐT Bắc Ninh 2024 - Câu 50",
+    "content": "Một đường ống dẫn khí đốt cần nối từ một trạm cung cấp tại điểm $A(0; 2; 3)$ đến một trạm tiêu thụ tại điểm $B(6; 8; 5)$ trong hệ tọa độ $Oxyz$ (đơn vị: km). Giữa hai điểm này có một quả đồi được mô hình hóa và đường ống phải đi qua một điểm trung chuyển $P$ nằm trên mặt phẳng mặt đất $(Oxy)$ có phương trình $z = 0$. Tìm độ dài ngắn nhất của tuyến đường ống dẫn khí đốt $AP + PB$ (kết quả làm tròn đến chữ số thập phân thứ nhất).",
+    "correctAnswer": "12.8"
+  },
+  {
+    "code": "Q27_D2_MC",
+    "sourceExam": "Đề thi tốt nghiệp THPT chính thức Bộ GD&ĐT 2024 - Mã đề 103 - Câu 14",
+    "content": "Tìm giá trị lớn nhất của hàm số $y = \\sqrt{4 - x^2}$ trên đoạn $[-1; 2]$.",
+    "correctAnswer": "A"
+  },
+  {
+    "code": "Q28_D3_MC",
+    "sourceExam": "Đề Khảo sát chất lượng Toán 12 Sở GD&ĐT Nam Định 2024 - Câu 25",
+    "content": "Cho hàm số $y = \\frac{x^2 + 2x - 3}{x^2 - 4x + 3}$. Tổng số đường tiệm cận đứng và tiệm cận ngang của đồ thị hàm số đã cho là:",
+    "correctAnswer": "B"
+  },
+  {
+    "code": "Q29_D4_MC",
+    "sourceExam": "Đề tham khảo Tốt nghiệp THPT 2025 Bộ GD&ĐT - Dạng hàm phân thức bậc 2 trên bậc 1",
+    "content": "Đồ thị của hàm số $y = \\frac{x^2 - 2x + 2}{x - 1}$ có giao điểm với trục tung $Oy$ tại điểm nào sau đây?",
+    "correctAnswer": "A"
+  },
+  {
+    "code": "Q30_D4_SA",
+    "sourceExam": "Đề thi thử Tốt nghiệp THPT 2024 Chuyên Lam Sơn - Thanh Hóa - Câu 34",
+    "content": "Cho hàm số $y = f(x)$ có bảng biến thiên của hàm bậc ba với giá trị cực đại $y_{CD} = 4$ và giá trị cực tiểu $y_{CT} = -1$. Tìm số giá trị nguyên của tham số $m$ để phương trình $f(x) - m = 0$ có đúng 3 nghiệm thực phân biệt.",
+    "correctAnswer": "4"
+  },
+  {
+    "code": "Q31_D5_MC",
+    "sourceExam": "Đề thi tốt nghiệp THPT chính thức Bộ GD&ĐT 2024 - Mã đề 101 - Câu 26",
+    "content": "Cho hình chóp $S.ABC$ có đáy $ABC$ là tam giác đều cạnh $a$, cạnh bên $SA$ vuông góc với mặt phẳng đáy $(ABC)$ và $SA = a$. Góc giữa hai vectơ $\\vec{SA}$ và $\\vec{BC}$ bằng:",
+    "correctAnswer": "A"
+  },
+  {
+    "code": "Q32_D5_SA",
+    "sourceExam": "Đề Khảo sát chất lượng Toán 12 Sở GD&ĐT Hải Phòng 2024 - Câu 41",
+    "content": "Cho hình lập phương $ABCD.A'B'C'D'$ có cạnh bằng $1$. Tính giá trị của tích vô hướng $\\vec{AC} \\cdot \\vec{A'D}$.",
+    "correctAnswer": "-1"
+  },
+  {
+    "code": "Q33_D6_MC",
+    "sourceExam": "Đề thi tốt nghiệp THPT chính thức Bộ GD&ĐT 2024 - Mã đề 102 - Câu 3",
+    "content": "Trong không gian $Oxyz$, cho điểm $A(1; -2; 3)$. Hình chiếu vuông góc của điểm $A$ lên mặt phẳng $(Oxy)$ có tọa độ là:",
+    "correctAnswer": "A"
+  },
+  {
+    "code": "Q34_D7_MC",
+    "sourceExam": "[Đề xuất mới theo SGK Kết nối tri thức - Chờ giáo viên bộ môn duyệt]",
+    "content": "Trong không gian $Oxyz$, một tàu đánh cá đang neo đậu tại điểm $A(2; 5; 0)$ trên mặt biển $(Oxy)$. Một ngọn hải đăng đặt tại điểm $B(8; 13; 0)$. Một chiếc ca nô cao tốc chạy dọc theo bờ biển được mô hình hóa là trục hoành $Ox$. Ca nô cần đón một chuyên gia từ tàu cá $A$, ghé vào bờ biển $Ox$ để tiếp nhiên liệu tại điểm $M(x; 0; 0)$, rồi di chuyển đến ngọn hải đăng $B$. Tìm hoành độ $x$ của điểm $M$ trên bờ biển để tổng quãng đường $MA + MB$ là ngắn nhất.",
+    "correctAnswer": "B"
+  },
+  {
+    "code": "Q35_D7_SA",
+    "sourceExam": "[Đề xuất mới theo SGK Kết nối tri thức - Chờ giáo viên bộ môn duyệt]",
+    "content": "Một trạm thu phát tín hiệu vệ tinh đặt tại điểm $S(0; 0; 10)$ trong hệ tọa độ $Oxyz$ (đơn vị: km). Một thiết bị tự hành thám hiểm chuyển động trên mặt đất (mặt phẳng $Oxy$) dọc theo đường parabol $y = x^2 - 4$ với hoành độ $x \\in [-3; 3]$. Tìm khoảng cách ngắn nhất từ thiết bị tự hành đến trạm phát tín hiệu $S$ (kết quả làm tròn đến chữ số thập phân thứ nhất).",
+    "correctAnswer": "10.2"
+  },
+  {
+    "code": "Q36_D7_TF",
+    "sourceExam": "[Đề xuất mới theo SGK Kết nối tri thức - Chờ giáo viên bộ môn duyệt]",
+    "content": "Trong không gian $Oxyz$, một người đứng tại vị trí $A(3; 2; 0)$ muốn đi bộ ra con kênh nước được mô hình hóa là đường thẳng $d: \\begin{cases} x = 1 + t \\\\ y = -1 + 2t \\\\ z = 0 \\end{cases}$ để lấy nước, sau đó mang đến điểm dã ngoại $B(5; 6; 0)$. Gọi $M(1 + t; -1 + 2t; 0)$ là vị trí lấy nước trên con kênh. Xét tính đúng/sai:",
+    "correctAnswer": "{\"a\":true,\"b\":false,\"c\":false,\"d\":false}"
+  },
+  {
+    "code": "Q31_D1_TF",
+    "sourceExam": "Đề tham khảo tốt nghiệp THPT 2025 - Bộ GD&ĐT - Mã câu 2",
+    "content": "Cho hàm số $y = f(x)$ có đạo hàm $f'(x) = (x - 1)(x + 2)^2(x^2 - 4x + 3)$ với mọi $x \\in \\mathbb{R}$. Xét tính đúng/sai của các mệnh đề sau:",
+    "correctAnswer": "{\"a\":false,\"b\":false,\"c\":true,\"d\":true}"
+  },
+  {
+    "code": "Q32_D1_SA",
+    "sourceExam": "Đề thi thử tốt nghiệp THPT Chuyên Lam Sơn - Thanh Hóa 2024",
+    "content": "Tìm số giá trị nguyên của tham số $m \\in [-10; 10]$ để hàm số $y = \\frac{1}{3}x^3 - mx^2 + (m^2 - 4)x + 2026$ đồng biến trên khoảng $(1; 4)$.",
+    "correctAnswer": "18"
+  },
+  {
+    "code": "Q33_D2_TF",
+    "sourceExam": "Đề khảo sát chất lượng Sở GD&ĐT Hà Nội 2024 - Bài toán thực tế",
+    "content": "Một người làm vườn muốn rào quanh một mảnh đất hình chữ nhật có diện tích $300\\text{ m}^2$ giáp một bờ tường thẳng (không cần rào bờ tường này). Gọi $x$ (mét) là chiều rộng của mảnh đất vuông góc với bờ tường ($x > 0$). Chiều dài rào lưới là $L(x)$. Xét tính đúng/sai của các mệnh đề sau:",
+    "correctAnswer": "{\"a\":true,\"b\":true,\"c\":true,\"d\":false}"
+  },
+  {
+    "code": "Q34_D2_SA",
+    "sourceExam": "Đề tham khảo tốt nghiệp THPT 2025 - Bộ GD&ĐT - Dạng bài Kinh tế ứng dụng",
+    "content": "Một xưởng sản xuất thiết bị điện tử ước tính hàm tổng chi phí sản xuất $x$ sản phẩm trong một ngày là $C(x) = x^3 - 30x^2 + 500x + 1000$ (nghìn đồng) với $1 \\le x \\le 50$. Chi phí trung bình cho mỗi sản phẩm là $\\bar{C}(x) = \\frac{C(x)}{x}$. Hỏi xưởng cần sản xuất bao nhiêu sản phẩm mỗi ngày để chi phí trung bình trên mỗi sản phẩm là nhỏ nhất?",
+    "correctAnswer": "20"
+  },
+  {
+    "code": "Q35_D3_MC",
+    "sourceExam": "SGK Toán 12 Tập 1 - Kết nối tri thức - Bài 3 Trang 26",
+    "content": "Cho hàm số $y = \\frac{3x^2 - 5x + 2}{x - 2}$. Phương trình đường tiệm cận xiên của đồ thị hàm số là:",
+    "correctAnswer": "A"
+  },
+  {
+    "code": "Q36_D3_TF",
+    "sourceExam": "Đề thi thử tốt nghiệp THPT Sở GD&ĐT Nam Định 2024",
+    "content": "Cho hàm số $y = \\frac{\\sqrt{x^2 + 1} - x}{x - 1}$. Xét tính đúng/sai của các mệnh đề sau về đường tiệm cận của đồ thị hàm số:",
+    "correctAnswer": "{\"a\":true,\"b\":true,\"c\":true,\"d\":false}"
+  },
+  {
+    "code": "Q37_D4_MC",
+    "sourceExam": "Đề thi tốt nghiệp THPT 2024 - Bộ GD&ĐT - Mã đề 101",
+    "content": "Đường cong trong hình vẽ là đồ thị của hàm số nào dưới đây?",
+    "correctAnswer": "A"
+  },
+  {
+    "code": "Q38_D4_SA",
+    "sourceExam": "Đề thi thử THPT Chuyên ĐH Sư Phạm Hà Nội 2024",
+    "content": "Cho hàm số bậc ba $y = f(x) = ax^3 + bx^2 + cx + d$ có đồ thị cắt trục hoành tại 3 điểm phân biệt có hoành độ lần lượt là $x_1 = -1, x_2 = 1, x_3 = 3$ và có hệ số $a = 1$. Tìm số nghiệm thực của phương trình $f(f(x)) = 0$.",
+    "correctAnswer": "7"
+  },
+  {
+    "code": "Q39_D5_MC",
+    "sourceExam": "SGK Toán 12 Tập 1 - Kết nối tri thức - Bài 6 Trang 51",
+    "content": "Cho tứ diện $ABCD$. Gọi $M, N$ lần lượt là trung điểm của $AB$ và $CD$. Khẳng định nào sau đây là đúng?",
+    "correctAnswer": "D"
+  },
+  {
+    "code": "Q40_D5_TF",
+    "sourceExam": "Đề thi thử Sở GD&ĐT Bắc Ninh 2024",
+    "content": "Cho hình lăng trụ tam giác $ABC.A'B'C'$ có $\\vec{a} = \\vec{AA'}, \\vec{b} = \\vec{AB}, \\vec{c} = \\vec{AC}$. Gọi $G$ là trọng tâm tam giác $A'B'C'$. Xét tính đúng/sai của các mệnh đề sau:",
+    "correctAnswer": "{\"a\":true,\"b\":true,\"c\":true,\"d\":true}"
+  },
+  {
+    "code": "Q41_D6_MC",
+    "sourceExam": "Đề khảo sát chất lượng Sở GD&ĐT Hải Phòng 2024",
+    "content": "Trong không gian $Oxyz$, cho ba điểm $A(1; 2; -1), B(2; 3; 1), C(0; 1; 2)$. Tính diện tích tam giác $ABC$.",
+    "correctAnswer": "A"
+  },
+  {
+    "code": "Q42_D6_SA",
+    "sourceExam": "Đề thi thử tốt nghiệp THPT Sở GD&ĐT Nghệ An 2024",
+    "content": "Trong không gian $Oxyz$, cho bốn điểm $A(1; 0; 0), B(0; 2; 0), C(0; 0; 3)$ và $D(2; 1; 4)$. Tính thể tích khối tứ diện $ABCD$. (Viết kết quả dưới dạng số thập phân làm tròn đến hàng phần mười).",
+    "correctAnswer": "1.7"
+  },
+  {
+    "code": "Q43_D7_TF",
+    "sourceExam": "Đề tham khảo tốt nghiệp THPT 2025 - Bộ GD&ĐT - Ứng dụng Oxyz thực tế",
+    "content": "Một trạm rada đặt tại điểm $O(0; 0; 0)$ trên mặt đất phẳng $(Oxy)$. Một thiết bị bay không người lái (drone) bay theo quỹ đạo đường thẳng có phương trình tọa độ tại thời điểm $t$ (phút, $t \\ge 0$) là: $M(t) = (10 + 2t; 5 - t; 2 + t)$ (km). Gọi $d(t)$ là khoảng cách từ drone đến trạm rada tại thời điểm $t$. Xét tính đúng/sai của các mệnh đề sau:",
+    "correctAnswer": "{\"a\":false,\"b\":true,\"c\":true,\"d\":true}"
+  },
+  {
+    "code": "Q44_D7_SA",
+    "sourceExam": "Đề thi thử THPT Chuyên KHTN Hà Nội 2024",
+    "content": "Hai con tàu $A$ và $B$ xuất phát cùng lúc từ hai vị trí trong không gian $Oxyz$. Tại thời điểm $t$ (giờ, $t \\ge 0$), vị trí của tàu $A$ là $A(t) = (2 + t; 1 - 2t; 3 + 2t)$ và tàu $B$ là $B(t) = (1 + 2t; 3 + t; 1 - t)$ (km). Khoảng cách ngắn nhất giữa hai con tàu trong suốt quá trình di chuyển bằng bao nhiêu km? (Làm tròn đến hàng phần mười).",
+    "correctAnswer": "3.2"
+  }
+]

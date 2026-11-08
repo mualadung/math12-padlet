@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "katex/dist/katex.min.css";
+@import "@xyflow/react/dist/style.css";
+
+:root {
+  --background: #fbf9f4; /* warm parchment paper background */
+  --foreground: #1c2b22; /* deep organic forest text */
+  --card: #ffffff;
+  --border: #e3dfd3;
+  --muted: #f2eee3;
+  --muted-foreground: #6c7870;
+
+  /* Natural Earthy Botanical Palette from Lovable Mạch */
+  --moss: #2d5a3f;        /* 07/root: Deep forest moss */
+  --olive: #4f6e32;       /* 01: Olive branch green */
+  --rust: #a8422b;        /* 02: Rust red */
+  --gold: #b87b14;        /* 03: Ochre gold */
+  --ink: #28374d;         /* 04: Indigo ink */
+  --sage: #456c56;        /* 05: Sage green */
+  --terracotta: #b85437;  /* 06: Warm clay terracotta */
+  --cyan: #196b78;        /* 07 (Geo): Teal cyan */
+  --emerald: #186c44;     /* 08 (Geo): Emerald */
+  --violet: #633b7b;      /* 09 (Geo): Deep royal violet */
+
+  --paper-shadow: 0 3px 0 rgba(28, 43, 34, 0.08), 0 1px 4px rgba(0, 0, 0, 0.05);
+  --paper-shadow-hover: 0 6px 0 rgba(28, 43, 34, 0.12), 0 6px 14px rgba(0, 0, 0, 0.08);
+}
+
+.dark {
+  --background: #0f1713;
+  --foreground: #edf3ee;
+  --card: #18221c;
+  --border: #26382e;
+  --muted: #1e2c24;
+  --muted-foreground: #8ea295;
+
+  --moss: #427d5b;
+  --olive: #739d4b;
+  --rust: #cf5e44;
+  --gold: #e2a129;
+  --ink: #5575a8;
+  --sage: #669a7c;
+  --terracotta: #d96f50;
+  --cyan: #329bb0;
+  --emerald: #299b66;
+  --violet: #8e58a7;
+
+  --paper-shadow: 0 3px 0 rgba(0, 0, 0, 0.4), 0 1px 4px rgba(0, 0, 0, 0.3);
+  --paper-shadow-hover: 0 6px 0 rgba(0, 0, 0, 0.6), 0 6px 14px rgba(0, 0, 0, 0.4);
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: 'Be Vietnam Pro', system-ui, -apple-system, sans-serif;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+}
+
+/* Lovable Canvas Background */
+.canvas-mach {
+  background-color: var(--background);
+  background-image: radial-gradient(var(--border) 1.2px, transparent 1.2px);
+  background-size: 24px 24px;
+}
+
+/* React Flow Container & Nodes */
+.react-flow {
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 650px !important;
+}
+
+.react-flow__node {
+  cursor: default;
+}
+
+.react-flow__handle {
+  width: 8px !important;
+  height: 8px !important;
+  border-radius: 50% !important;
+  background-color: var(--moss) !important;
+  border: 2px solid #ffffff !important;
+}
+
+/* React Flow Edge Styles by Tone */
+.react-flow__edge-path {
+  stroke-width: 2.2px !important;
+  stroke: var(--moss) !important;
+}
+
+.map-edge.tone-olive .react-flow__edge-path { stroke: var(--olive) !important; }
+.map-edge.tone-rust .react-flow__edge-path { stroke: var(--rust) !important; }
+.map-edge.tone-gold .react-flow__edge-path { stroke: var(--gold) !important; }
+.map-edge.tone-ink .react-flow__edge-path { stroke: var(--ink) !important; }
+.map-edge.tone-sage .react-flow__edge-path { stroke: var(--sage) !important; }
+.map-edge.tone-terracotta .react-flow__edge-path { stroke: var(--terracotta) !important; }
+.map-edge.tone-cyan .react-flow__edge-path { stroke: var(--cyan) !important; }
+.map-edge.tone-emerald .react-flow__edge-path { stroke: var(--emerald) !important; }
+.map-edge.tone-violet .react-flow__edge-path { stroke: var(--violet) !important; }
+.map-edge.tone-moss .react-flow__edge-path { stroke: var(--moss) !important; }
+
+/* Tactile Paper Card */
+.mach-card {
+  box-shadow: var(--paper-shadow);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.mach-card:hover {
+  box-shadow: var(--paper-shadow-hover);
+  transform: translateY(-2px);
+}

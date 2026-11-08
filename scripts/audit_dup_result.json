@@ -1,0 +1,110 @@
+{
+  "crossDups": [
+    {
+      "dbCode": "Q01_D1_MC",
+      "mmCode": "Q01-2024",
+      "topic": "TOPIC_1_1",
+      "dbContent": "Cho hàm số $y = f(x)$ có đạo hàm $f'(x) = x(x - 2)^2(x + 3)$",
+      "mmContent": "Cho hàm số $y = f(x)$ có đạo hàm $f'(x) = x(x - 2)^2(x + 3)$"
+    },
+    {
+      "dbCode": "Q02_D1_MC",
+      "mmCode": "Q02-2024",
+      "topic": "TOPIC_1_1",
+      "dbContent": "Hàm số $y = \\frac{2x - 1}{x + 1}$ đồng biến trên khoảng nào ",
+      "mmContent": "Hàm số $y = \\frac{2x - 1}{x + 1}$ đồng biến trên khoảng nào "
+    },
+    {
+      "dbCode": "Q04_D1_SA",
+      "mmCode": "Q04-2025",
+      "topic": "TOPIC_1_1",
+      "dbContent": "Tìm số giá trị nguyên của tham số $m \\in [-10; 10]$ để hàm s",
+      "mmContent": "Tìm số giá trị nguyên của tham số $m \\in [-10; 10]$ để hàm s"
+    },
+    {
+      "dbCode": "Q06_D2_MC",
+      "mmCode": "Q11-2024",
+      "topic": "TOPIC_1_3",
+      "dbContent": "Giá trị nhỏ nhất của hàm số $f(x) = x^4 - 2x^2 + 3$ trên đoạ",
+      "mmContent": "Giá trị nhỏ nhất của hàm số $f(x) = x^4 - 2x^2 + 3$ trên đoạ"
+    },
+    {
+      "dbCode": "Q07_D2_MC",
+      "mmCode": "Q12-2024",
+      "topic": "TOPIC_1_3",
+      "dbContent": "Giá trị lớn nhất của hàm số $y = x + \\frac{4}{x}$ trên đoạn ",
+      "mmContent": "Giá trị lớn nhất của hàm số $y = x + \\frac{4}{x}$ trên đoạn "
+    },
+    {
+      "dbCode": "Q10_D3_MC",
+      "mmCode": "Q16-2024",
+      "topic": "TOPIC_1_4",
+      "dbContent": "Đường tiệm cận đứng của đồ thị hàm số $y = \\frac{3x + 1}{x -",
+      "mmContent": "Đường tiệm cận đứng của đồ thị hàm số $y = \\frac{3x + 1}{x -"
+    },
+    {
+      "dbCode": "Q11_D3_MC",
+      "mmCode": "Q17-2025",
+      "topic": "TOPIC_1_4",
+      "dbContent": "Phương trình đường tiệm cận xiên của đồ thị hàm số $y = \\fra",
+      "mmContent": "Phương trình đường tiệm cận xiên của đồ thị hàm số $y = \\fra"
+    },
+    {
+      "dbCode": "Q12_D3_TF",
+      "mmCode": "Q18-2024",
+      "topic": "TOPIC_1_4",
+      "dbContent": "Cho hàm số $y = f(x) = \\frac{x^2 - x - 2}{x^2 - 4}$. Xét tín",
+      "mmContent": "Cho hàm số $y = f(x) = \\frac{x^2 - x - 2}{x^2 - 4}$. Xét tín"
+    },
+    {
+      "dbCode": "Q14_D4_MC",
+      "mmCode": "Q21-2024",
+      "topic": "TOPIC_1_5",
+      "dbContent": "Đường cong trong hình vẽ bên là đồ thị của hàm số nào dưới đ",
+      "mmContent": "Đường cong trong hình vẽ bên là đồ thị của hàm số nào dưới đ"
+    },
+    {
+      "dbCode": "Q17_D5_MC",
+      "mmCode": "Q31-2024",
+      "topic": "TOPIC_2_1",
+      "dbContent": "Cho hình hộp $ABCD.A'B'C'D'$. Khẳng định nào sau đây là đúng",
+      "mmContent": "Cho hình hộp $ABCD.A'B'C'D'$. Khẳng định nào sau đây là đúng"
+    },
+    {
+      "dbCode": "Q18_D5_MC",
+      "mmCode": "Q32-2024",
+      "topic": "TOPIC_2_1",
+      "dbContent": "Cho tứ diện đều $ABCD$ có cạnh bằng $a$. Tích vô hướng $\\vec",
+      "mmContent": "Cho tứ diện đều $ABCD$ có cạnh bằng $a$. Tích vô hướng $\\vec"
+    },
+    {
+      "dbCode": "Q23_D6_SA",
+      "mmCode": "Q39-2024",
+      "topic": "TOPIC_2_2",
+      "dbContent": "Trong không gian $Oxyz$, cho tam giác $ABC$ có $A(1; 2; 3)$,",
+      "mmContent": "Trong không gian $Oxyz$, cho tam giác $ABC$ có $A(1; 2; 3)$,"
+    },
+    {
+      "dbCode": "Q24_D7_MC",
+      "mmCode": "Q47-2024",
+      "topic": "TOPIC_2_4",
+      "dbContent": "Trong không gian $Oxyz$, một khinh khí cầu bay theo đường th",
+      "mmContent": "Trong không gian $Oxyz$, một khinh khí cầu bay theo đường th"
+    },
+    {
+      "dbCode": "Q27_D2_MC",
+      "mmCode": "Q13-2024",
+      "topic": "TOPIC_1_3",
+      "dbContent": "Tìm giá trị lớn nhất của hàm số $y = \\sqrt{4 - x^2}$ trên đo",
+      "mmContent": "Tìm giá trị lớn nhất của hàm số $y = \\sqrt{4 - x^2}$ trên đo"
+    },
+    {
+      "dbCode": "Q32_D1_SA",
+      "mmCode": "Q04-2025",
+      "topic": "TOPIC_1_1",
+      "dbContent": "Tìm số giá trị nguyên của tham số $m \\in [-10; 10]$ để hàm s",
+      "mmContent": "Tìm số giá trị nguyên của tham số $m \\in [-10; 10]$ để hàm s"
+    }
+  ],
+  "internalMmDups": []
+}

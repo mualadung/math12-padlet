@@ -1,0 +1,139 @@
+// Prisma Schema for Math 12 Padlet Digital Learning System
+// Supports SQLite (Local development) and PostgreSQL / Supabase (Production deployment)
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+// -------------------------------------------------------------
+// 1. KNOWLEDGE ITEM (Mục II.2 - Xác định phạm vi & Hệ thống hóa)
+// -------------------------------------------------------------
+model KnowledgeItem {
+  id           String   @id @default(uuid())
+  chapter      String   // "Chương I" hoặc "Chương II"
+  lesson       String   // Tên bài học trong SGK Toán 12 Tập 1 (Bài 1 -> Bài 8)
+  title        String   // Tên khái niệm / định lý / công thức trọng tâm
+  formulaLatex String   // Công thức toán học định dạng KaTeX
+  conditions   String   // Điều kiện áp dụng (Tập xác định D, khả vi, liên tục, mẫu khác 0, vecto khác 0...)
+  notes        String?  // Ghi chú sư phạm / liên kết logic
+  sourceBook   String   // Nguồn kiểm chứng SGK Kết nối tri thức với cuộc sống (Trang ...)
+  order        Int      @default(0)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+}
+
+// -------------------------------------------------------------
+// 2. MATH CATEGORY (Mục III - Phân loại dạng toán)
+// -------------------------------------------------------------
+model MathCategory {
+  id             String     @id @default(uuid())
+  code           String     @unique // "DANG_1" -> "DANG_7"
+  chapter        String     // "Chương I", "Chương II", "Liên chương I-II"
+  title          String     // Tên dạng toán
+  identifySigns  String     // Dấu hiệu nhận diện đề bài
+  coreKnowledge  String     // Kiến thức nền tảng cần nắm
+  methodSteps    String     // Định hướng / phương pháp giải từng bước
+  commonMistakes String     // Lỗi sai thường gặp & cạm bẫy đề thi
+  order          Int        @default(0)
+  questions      Question[]
+  createdAt      DateTime   @default(now())
+  updatedAt      DateTime   @updatedAt
+}
+
+// -------------------------------------------------------------
+// 3. QUESTION (Mục IV - Ngân hàng câu hỏi chuẩn nguồn 100%)
+// -------------------------------------------------------------
+model Question {
+  id                 String       @id @default(uuid())
+  code               String       @unique // Mã câu: vd "C01", "C02", ...
+  categoryId         String
+  category           MathCategory @relation(fields: [categoryId], references: [id], onDelete: Cascade)
+  difficulty         String       // NHAN_BIET, THONG_HIEU, VAN_DUNG, VAN_DUNG_CAO
+  questionType       String       // MULTIPLE_CHOICE, TRUE_FALSE, SHORT_ANSWER
+  content            String       // Đề bài (hỗ trợ KaTeX)
+  optionsJson        String?      // Danh sách lựa chọn (JSON array nếu là trắc nghiệm hoặc 4 ý a,b,c,d)
+  correctAnswer      String       // Đáp án đúng (vd: "A", JSON đúng/sai, hoặc số trả lời ngắn)
+  explanation        String       // Lời giải chi tiết tự luận mẫu mực (KaTeX)
+  casioGuide         String?      // Hướng dẫn bấm máy Casio fx-580VN X & fx-880BTG
+  distractorAnalysis String       // Phân tích phương án nhiễu & vì sao dễ chọn sai
+  sourceExam         String       // Nguồn gốc đề thi (Bộ GD&ĐT, Sở GD&ĐT, Trường chuyên, Năm, Mã đề)
+  verifiedBy         String       // Tên thành viên kiểm tra chéo độc lập (Yến, T.Thảo, Tiến, Q.Anh)
+  createdAt          DateTime     @default(now())
+  updatedAt          DateTime     @updatedAt
+}
+
+// -------------------------------------------------------------
+// 4. QUIZ ATTEMPT & FEEDBACK (Mục V - Tương tác luyện tập & Góp ý)
+// -------------------------------------------------------------
+model QuizAttempt {
+  id             String    @id @default(uuid())
+  studentName    String    // Họ tên người tham gia luyện tập
+  schoolOrClass  String?   // Trường / Lớp của học sinh
+  score          Float     // Điểm số đạt được (thang 10)
+  totalQuestions Int       // Tổng số câu trắc nghiệm
+  correctCount   Int       // Số câu trả lời đúng
+  answersJson    String    // Dữ liệu câu trả lời (JSON string)
+  completedAt    DateTime  @default(now())
+  feedback       Feedback?
+}
+
+model Feedback {
+  id            String       @id @default(uuid())
+  studentName   String       // Tên học sinh nhóm bạn hoặc người nhận xét
+  schoolOrClass String?      // Trường / Lớp / Tên nhóm bạn
+  targetTeam    String       @default("Nhóm 5 - Toán 12")
+  rating        Int          // Đánh giá sao (1 -> 5 sao)
+  strengths     String       // Điểm mạnh của sản phẩm (Mục IX)
+  improvements  String       // Nội dung cần sửa/bổ sung, góp ý hoàn thiện (Mục IX)
+  quizAttemptId String?      @unique
+  quizAttempt   QuizAttempt? @relation(fields: [quizAttemptId], references: [id], onDelete: SetNull)
+  createdAt     DateTime     @default(now())
+}
+
+// -------------------------------------------------------------
+// 5. TEAM MEMBER & PEER REVIEW (Phần bổ sung - Phân công & Chấm chéo)
+// -------------------------------------------------------------
+model TeamMember {
+  id              String       @id @default(uuid())
+  name            String       @unique // "Huy", "Q.Anh", "Tiến", "Yến", "T.Thảo"
+  roleCode        String       // "VAI_TRO_1_6", "VAI_TRO_2", "VAI_TRO_3", "VAI_TRO_4", "VAI_TRO_5"
+  roleName        String       // Tên vai trò
+  tasks           String       // Nhiệm vụ chi tiết được giao
+  deliverables    String       // Sản phẩm / minh chứng bắt buộc
+  deadline        String       // Thời hạn hoàn thành
+  status          String       @default("COMPLETED") // NOT_STARTED, IN_PROGRESS, COMPLETED, VERIFIED
+  selfRating      Float?       // Điểm tự đánh giá (tham khảo cá nhân, không tính vào TB)
+  finalPeerAvg    Float?       // Điểm trung bình chấm chéo từ 4 thành viên còn lại (thang 100)
+  finalScore      Float?       // Điểm cá nhân = 70% * Điểm nhóm + 30% * finalPeerAvg
+  reviewsGiven    PeerReview[] @relation("ReviewerRelation")
+  reviewsReceived PeerReview[] @relation("RevieweeRelation")
+  createdAt       DateTime     @default(now())
+  updatedAt       DateTime     @updatedAt
+}
+
+model PeerReview {
+  id          String     @id @default(uuid())
+  reviewerId  String
+  reviewer    TeamMember @relation("ReviewerRelation", fields: [reviewerId], references: [id], onDelete: Cascade)
+  revieweeId  String
+  reviewee    TeamMember @relation("RevieweeRelation", fields: [revieweeId], references: [id], onDelete: Cascade)
+  
+  // 5 Tiêu chí chấm chéo theo Mục 2 trang 6 Phiếu giao nhiệm vụ
+  criterion1  Float      // 1. Hoàn thành đúng nhiệm vụ/sản phẩm (tối đa 30đ)
+  criterion2  Float      // 2. Độ chính xác và chất lượng chuyên môn (tối đa 25đ)
+  criterion3  Float      // 3. Tinh thần trách nhiệm và tiến độ (tối đa 20đ)
+  criterion4  Float      // 4. Hợp tác và hỗ trợ thành viên (tối đa 15đ)
+  criterion5  Float      // 5. Tiếp thu góp ý và hoàn thiện sản phẩm (tối đa 10đ)
+  
+  totalScore  Float      // Tổng điểm (tối đa 100đ)
+  comment     String?    // Nhận xét minh chứng thực tế
+  createdAt   DateTime   @default(now())
+  updatedAt   DateTime   @updatedAt
+
+  @@unique([reviewerId, revieweeId])
+}

@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "buildCommand": "npx prisma generate && npx prisma db push && node prisma/seed_master.js && node scripts/export_docs.js && next build",
+  "installCommand": "npm install",
+  "framework": "nextjs"
+}

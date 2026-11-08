@@ -1,0 +1,1078 @@
+[
+  {
+    "id": "monotonic",
+    "title": "TÍNH ĐƠN ĐIỆU",
+    "subtitle": "Dấu đạo hàm · Khoảng biến thiên",
+    "color": "olive",
+    "number": "01",
+    "children": [
+      {
+        "id": "n4",
+        "title": "Lý thuyết",
+        "children": [
+          {
+            "id": "i1",
+            "title": "Đồng biến",
+            "content": [
+              "Với mọi $x_1<x_2$ thuộc khoảng $K$, ta có $f(x_1)<f(x_2)$.",
+              "Đồ thị đi lên từ trái sang phải."
+            ]
+          },
+          {
+            "id": "i2",
+            "title": "Nghịch biến",
+            "content": [
+              "Với mọi $x_1<x_2$ thuộc khoảng $K$, ta có $f(x_1)>f(x_2)$.",
+              "Đồ thị đi xuống từ trái sang phải."
+            ]
+          },
+          {
+            "id": "i3",
+            "title": "Điều kiện áp dụng",
+            "content": [
+              "Xét trên từng khoảng thuộc tập xác định. Giả thiết đạo hàm tồn tại trên khoảng đang xét."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "n8",
+        "title": "Dấu đạo hàm",
+        "children": [
+          {
+            "id": "i5",
+            "title": "f′(x) > 0",
+            "content": [
+              "$f\\prime(x)>0$ trên $K$ thì $f$ đồng biến trên $K$.",
+              "Ví dụ: $f(x)=x^3+x$, $f'(x)=3x^2+1>0$ với mọi $x$."
+            ]
+          },
+          {
+            "id": "i6",
+            "title": "f′(x) < 0",
+            "content": [
+              "$f'(x)<0$ trên $K$ thì $f$ nghịch biến trên $K$.",
+              "Ví dụ: $f(x)=-x^3-x$, $f'(x)=-3x^2-1<0$."
+            ]
+          },
+          {
+            "id": "i7",
+            "title": "f′(x) = 0",
+            "content": [
+              "Một điểm có đạo hàm bằng 0 chưa chắc là cực trị.",
+              "$f(x)=x^3$ có $f'(0)=0$ nhưng đồng biến trên toàn bộ $\\mathbb{R}$."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "n12",
+        "title": "Khoảng đơn điệu",
+        "children": [
+          {
+            "id": "i9",
+            "title": "Tìm điểm chia",
+            "content": [
+              "Tính đạo hàm. Giải $f\\prime(x)=0$ và xác định các điểm đạo hàm không tồn tại.",
+              "Đưa các điểm này và các mốc tập xác định lên trục số."
+            ]
+          },
+          {
+            "id": "i10",
+            "title": "Xét dấu",
+            "content": [
+              "Chọn một điểm thử trong từng khoảng; xác định dấu đạo hàm.",
+              "Không nối hai khoảng qua một điểm ngoài tập xác định."
+            ]
+          },
+          {
+            "id": "i11",
+            "title": "Ví dụ",
+            "content": [
+              "$f(x)=x^3-3x$; $f'(x)=3(x-1)(x+1)$.",
+              "Đồng biến trên $(-\\infty,-1)$ và $(1,+\\infty)$. Nghịch biến trên $(-1,1)$."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "n16",
+        "title": "Bảng biến thiên",
+        "children": [
+          {
+            "id": "i13",
+            "title": "Các hàng của bảng",
+            "content": [
+              "Hàng $x$: các mốc quan trọng. Hàng $f\\prime(x)$: dấu đạo hàm. Hàng $f(x)$: chiều biến thiên và giá trị/giới hạn."
+            ]
+          },
+          {
+            "id": "i14",
+            "title": "Chiều mũi tên",
+            "content": [
+              "Đạo hàm dương: mũi tên đi lên. Đạo hàm âm: mũi tên đi xuống."
+            ]
+          },
+          {
+            "id": "i15",
+            "title": "Đọc kết quả",
+            "content": [
+              "Đọc từng khoảng trên hàng $x$ và chiều biến thiên tương ứng; chú ý vạch phân cách tại điểm không xác định."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "n20",
+        "title": "Lỗi thường gặp",
+        "children": [
+          {
+            "id": "i17",
+            "title": "Ghép khoảng",
+            "content": [
+              "Không viết đồng biến trên hợp hai khoảng như một khoảng duy nhất.",
+              "Luôn kết luận riêng từng khoảng liên thông."
+            ]
+          },
+          {
+            "id": "i18",
+            "title": "Nhầm dấu",
+            "content": [
+              "Dùng dấu của đạo hàm, không dùng dấu của hàm số để kết luận đơn điệu."
+            ]
+          },
+          {
+            "id": "i19",
+            "title": "Đạo hàm bằng 0",
+            "content": [
+              "$f'(x)\\geq0$ có thể cho đồng biến nghiêm ngặt nếu đạo hàm chỉ bằng 0 tại hữu hạn điểm; không kết luận hằng chỉ từ một nghiệm."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "extrema",
+    "title": "CỰC TRỊ",
+    "subtitle": "Cực đại · Cực tiểu",
+    "color": "rust",
+    "number": "02",
+    "children": [
+      {
+        "id": "n24",
+        "title": "Khái niệm",
+        "children": [
+          {
+            "id": "i21",
+            "title": "Cực đại",
+            "content": [
+              "Trong một lân cận của $x_0$, $f(x)\\leq f(x_0)$ thì $x_0$ là điểm cực đại (theo định nghĩa không nghiêm ngặt).",
+              "Chương trình phổ thông thường xét cực trị nghiêm ngặt: bất đẳng thức nghiêm với $x\\ne x_0$."
+            ]
+          },
+          {
+            "id": "i22",
+            "title": "Cực tiểu",
+            "content": [
+              "Giá trị hàm tại $x_0$ nhỏ hơn các giá trị lân cận; không nhất thiết nhỏ nhất trên toàn miền."
+            ]
+          },
+          {
+            "id": "i23",
+            "title": "Điểm và giá trị",
+            "content": [
+              "Điểm cực trị: $x_0$. Giá trị cực trị: $f(x_0)$. Điểm cực trị trên đồ thị: $(x_0,f(x_0))$."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "n28",
+        "title": "Điều kiện",
+        "children": [
+          {
+            "id": "i25",
+            "title": "Điều kiện cần",
+            "content": [
+              "Nếu $f$ có cực trị tại điểm trong miền và có đạo hàm tại đó, thì $f'(x_0)=0$.",
+              "Điều kiện này không đủ."
+            ]
+          },
+          {
+            "id": "i26",
+            "title": "Đổi dấu đạo hàm",
+            "content": [
+              "Dấu $+\\to-$: cực đại. Dấu $-\\to+$: cực tiểu.",
+              "Đạo hàm không đổi dấu: không có cực trị theo tiêu chuẩn này."
+            ]
+          },
+          {
+            "id": "i27",
+            "title": "Đạo hàm cấp hai",
+            "content": [
+              "$f'(x_0)=0$ và $f''(x_0)>0$: cực tiểu; $f''(x_0)<0$: cực đại.",
+              "$f''(x_0)=0$: chưa kết luận; xét dấu đạo hàm cấp một."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "n33",
+        "title": "Quy tắc tìm",
+        "children": [
+          {
+            "id": "i29",
+            "title": "1 · Tính đạo hàm",
+            "content": [
+              "Xác định miền, tính $f\\prime(x)$."
+            ]
+          },
+          {
+            "id": "i30",
+            "title": "2 · Điểm cần xét",
+            "content": [
+              "Giải $f\\prime(x)=0$; xét thêm điểm trong miền nơi đạo hàm không tồn tại."
+            ]
+          },
+          {
+            "id": "i31",
+            "title": "3 · Xét sự đổi dấu",
+            "content": [
+              "Lập bảng dấu; kiểm tra đạo hàm bên trái và phải từng điểm."
+            ]
+          },
+          {
+            "id": "i32",
+            "title": "4 · Kết luận",
+            "content": [
+              "Dấu từ dương sang âm: cực đại; từ âm sang dương: cực tiểu.",
+              "Thay hoành độ vào $f$ để tính giá trị cực trị."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "n36",
+        "title": "Đọc đồ thị",
+        "children": [
+          {
+            "id": "i34",
+            "title": "Đỉnh và đáy",
+            "content": [
+              "Đỉnh cục bộ là cực đại; đáy cục bộ là cực tiểu.",
+              "Với $f(x)=x^3-3x$: cực đại $(-1,2)$, cực tiểu $(1,-2)$."
+            ],
+            "graph": true
+          },
+          {
+            "id": "i35",
+            "title": "Đồ thị đạo hàm",
+            "content": [
+              "Nghiệm của đạo hàm chỉ tạo cực trị khi đồ thị đạo hàm đi qua trục hoành và đổi dấu."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "n40",
+        "title": "Lỗi thường gặp",
+        "children": [
+          {
+            "id": "i37",
+            "title": "Nghiệm không đổi dấu",
+            "content": [
+              "$x^3$ không có cực trị tại 0 dù đạo hàm tại 0 bằng 0."
+            ]
+          },
+          {
+            "id": "i38",
+            "title": "Ngoài miền",
+            "content": [
+              "Nghiệm không thuộc tập xác định không thể là điểm cực trị."
+            ]
+          },
+          {
+            "id": "i39",
+            "title": "Nhầm giá trị",
+            "content": [
+              "Đáp án hỏi giá trị cực đại: trả lời $f(x_0)$, không trả lời $x_0$."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "minmax",
+    "title": "GTLN – GTNN",
+    "subtitle": "So sánh giá trị · Tìm tối ưu",
+    "color": "gold",
+    "number": "03",
+    "children": [
+      {
+        "id": "n44",
+        "title": "Khái niệm",
+        "children": [
+          {
+            "id": "i41",
+            "title": "Giá trị lớn nhất",
+            "content": [
+              "$M$ là GTLN trên $D$ nếu $f(x)\\leq M$ với mọi $x\\in D$ và có $x_0\\in D$ sao cho $f(x_0)=M$."
+            ]
+          },
+          {
+            "id": "i42",
+            "title": "Giá trị nhỏ nhất",
+            "content": [
+              "$m$ là GTNN trên $D$ nếu $f(x)\\geq m$ với mọi $x\\in D$ và có điểm đạt giá trị $m$."
+            ]
+          },
+          {
+            "id": "i43",
+            "title": "Tồn tại",
+            "content": [
+              "Hàm liên tục trên đoạn đóng, hữu hạn $[a,b]$ luôn đạt GTLN và GTNN."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "n50",
+        "title": "Tìm trên đoạn",
+        "children": [
+          {
+            "id": "i45",
+            "title": "Điểm tới hạn",
+            "content": [
+              "Tìm các điểm $c_i\\in(a,b)$ có đạo hàm bằng 0 hoặc không tồn tại, nhưng hàm có nghĩa."
+            ]
+          },
+          {
+            "id": "i46",
+            "title": "Giá trị bên trong",
+            "content": [
+              "Tính $f(c_i)$ tại tất cả điểm tới hạn."
+            ]
+          },
+          {
+            "id": "i47",
+            "title": "Hai đầu đoạn",
+            "content": [
+              "Tính $f(a)$ và $f(b)$. Không bỏ qua hai đầu đoạn."
+            ]
+          },
+          {
+            "id": "i48",
+            "title": "So sánh",
+            "content": [
+              "GTLN là giá trị lớn nhất; GTNN là giá trị nhỏ nhất trong các giá trị đã tính."
+            ]
+          },
+          {
+            "id": "i49",
+            "title": "Ví dụ",
+            "content": [
+              "$f(x)=x^3-3x$ trên $[0,2]$; $f'(x)=3x^2-3$.",
+              "$f(0)=0$, $f(1)=-2$, $f(2)=2$. Vậy GTNN $=-2$, GTLN $=2$."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "n54",
+        "title": "Quy trình giải",
+        "children": [
+          {
+            "id": "i51",
+            "title": "Kiểm tra miền",
+            "content": [
+              "Xác định hàm liên tục trên đoạn hoặc chia miền xét thích hợp."
+            ]
+          },
+          {
+            "id": "i52",
+            "title": "Lập bảng giá trị",
+            "content": [
+              "Liệt kê đầu mút và mọi điểm tới hạn hợp lệ."
+            ]
+          },
+          {
+            "id": "i53",
+            "title": "Trên khoảng mở",
+            "content": [
+              "Kiểm tra giá trị có thực sự đạt được không. Giới hạn tại đầu mút bị loại không phải giá trị đạt được."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "n58",
+        "title": "Bài toán tối ưu",
+        "children": [
+          {
+            "id": "i55",
+            "title": "Hàm mục tiêu",
+            "content": [
+              "Đưa đại lượng cần lớn nhất/nhỏ nhất về hàm một biến."
+            ]
+          },
+          {
+            "id": "i56",
+            "title": "So sánh hợp lệ",
+            "content": [
+              "Xét điểm tới hạn và đầu mút thuộc miền; kiểm tra ý nghĩa thực tế."
+            ]
+          },
+          {
+            "id": "i57",
+            "title": "Diện tích hình chữ nhật",
+            "content": [
+              "Chu vi 40 m: đặt chiều rộng $x$, chiều dài $20-x$, $0<x<20$.",
+              "$S(x)=x(20-x)=100-(x-10)^2$. Diện tích lớn nhất $100\\,\\mathrm{m}^2$ khi hai cạnh bằng 10 m."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "n62",
+        "title": "Lỗi thường gặp",
+        "children": [
+          {
+            "id": "i59",
+            "title": "Quên đầu mút",
+            "content": [
+              "Cực trị bên trong chưa chắc là GTLN/GTNN trên đoạn. So sánh cả hai đầu mút."
+            ]
+          },
+          {
+            "id": "i60",
+            "title": "Giới hạn và giá trị",
+            "content": [
+              "$f(x)=x$ trên $(0,1)$ không có GTLN hay GTNN; 0 và 1 chỉ là cận."
+            ]
+          },
+          {
+            "id": "i61",
+            "title": "Không ghi miền",
+            "content": [
+              "GTLN/GTNN phụ thuộc miền xét. Luôn ghi rõ đoạn hoặc khoảng."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "asymptotes",
+    "title": "TIỆM CẬN",
+    "subtitle": "Đứng · Ngang · Xiên",
+    "color": "ink",
+    "number": "04",
+    "children": [
+      {
+        "id": "n67",
+        "title": "Tiệm cận đứng",
+        "children": [
+          {
+            "id": "i63",
+            "title": "Điểm cần xét",
+            "content": [
+              "Ưu tiên các điểm biên của miền hoặc nghiệm mẫu số; kiểm tra sau rút gọn."
+            ]
+          },
+          {
+            "id": "i64",
+            "title": "Giới hạn một phía",
+            "content": [
+              "$\\lim_{x\\to a^-}f(x)=\\pm\\infty$ hoặc $\\lim_{x\\to a^+}f(x)=\\pm\\infty$."
+            ]
+          },
+          {
+            "id": "i65",
+            "title": "Kết luận",
+            "content": [
+              "Chỉ cần một giới hạn một phía vô cực để $x=a$ là tiệm cận đứng."
+            ]
+          },
+          {
+            "id": "i66",
+            "title": "Ví dụ",
+            "content": [
+              "$f(x)=\\dfrac{2x+1}{x-1}=2+\\dfrac3{x-1}$. Tiệm cận đứng $x=1$."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "n71",
+        "title": "Tiệm cận ngang",
+        "children": [
+          {
+            "id": "i68",
+            "title": "Giới hạn ở vô cực",
+            "content": [
+              "$\\lim_{x\\to+\\infty}f(x)=b$ hoặc $\\lim_{x\\to-\\infty}f(x)=b$. Khi đó $y=b$ là tiệm cận ngang."
+            ]
+          },
+          {
+            "id": "i69",
+            "title": "Hàm hữu tỉ",
+            "content": [
+              "Bậc tử nhỏ hơn bậc mẫu: $y=0$. Bậc bằng nhau: tỉ số hệ số dẫn đầu."
+            ]
+          },
+          {
+            "id": "i70",
+            "title": "Ví dụ",
+            "content": [
+              "$f(x)=\\dfrac{2x+1}{x-1}$ có tiệm cận ngang $y=2$."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "n75",
+        "title": "Tiệm cận xiên",
+        "children": [
+          {
+            "id": "i72",
+            "title": "Điều kiện",
+            "content": [
+              "$y=ax+b$, $a\\ne0$, là tiệm cận xiên nếu $\\lim_{x\\to\\pm\\infty}[f(x)-(ax+b)]=0$ tại phía xét."
+            ]
+          },
+          {
+            "id": "i73",
+            "title": "Hệ số",
+            "content": [
+              "$a=\\lim f(x)/x$; $b=\\lim[f(x)-ax]$. Các giới hạn phải hữu hạn và $a\\ne0$."
+            ]
+          },
+          {
+            "id": "i74",
+            "title": "Chia đa thức",
+            "content": [
+              "$\\dfrac{x^2+1}{x-1}=x+1+\\dfrac2{x-1}$. Tiệm cận xiên $y=x+1$."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "n79",
+        "title": "Nhận dạng đồ thị",
+        "children": [
+          {
+            "id": "i76",
+            "title": "Đường tiến gần",
+            "content": [
+              "Đồ thị tiến sát đường tiệm cận khi đến biên miền hoặc ra vô cực."
+            ]
+          },
+          {
+            "id": "i77",
+            "title": "Tâm đối xứng",
+            "content": [
+              "Với hàm $(ax+b)/(cx+d)$, $c\\ne0$, $ad-bc\\ne0$: giao hai tiệm cận là tâm đối xứng."
+            ]
+          },
+          {
+            "id": "i78",
+            "title": "Ví dụ",
+            "content": [
+              "$f(x)=2+3/(x-1)$ có tâm $I(1,2)$."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "n83",
+        "title": "Lỗi thường gặp",
+        "children": [
+          {
+            "id": "i80",
+            "title": "Mẫu bằng 0",
+            "content": [
+              "Không phải mọi nghiệm mẫu số đều là tiệm cận đứng.",
+              "$(x^2-1)/(x-1)=x+1$ với $x\\ne1$; tại 1 chỉ là điểm khuyết."
+            ]
+          },
+          {
+            "id": "i81",
+            "title": "Đồ thị cắt tiệm cận",
+            "content": [
+              "Đồ thị có thể cắt tiệm cận ngang hoặc xiên; không áp dụng quy tắc “không bao giờ cắt”."
+            ]
+          },
+          {
+            "id": "i82",
+            "title": "Xét hai phía",
+            "content": [
+              "Hai phía vô cực có thể cho hai tiệm cận ngang khác nhau."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "graphs",
+    "title": "KHẢO SÁT – ĐỒ THỊ",
+    "subtitle": "Biến thiên · Hình dáng đồ thị",
+    "color": "sage",
+    "number": "05",
+    "children": [
+      {
+        "id": "n87",
+        "title": "Tập xác định",
+        "children": [
+          {
+            "id": "i84",
+            "title": "Mẫu số",
+            "content": [
+              "Mẫu số khác 0."
+            ]
+          },
+          {
+            "id": "i85",
+            "title": "Căn và logarit",
+            "content": [
+              "Căn bậc chẵn: biểu thức dưới căn không âm. Logarit: đối số dương."
+            ]
+          },
+          {
+            "id": "i86",
+            "title": "Kết hợp điều kiện",
+            "content": [
+              "Lấy giao tất cả điều kiện; ghi miền trước khi khảo sát."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "n91",
+        "title": "Đạo hàm",
+        "children": [
+          {
+            "id": "i88",
+            "title": "Công thức",
+            "content": [
+              "$(x^n)'=nx^{n-1}$; $(u/v)'=(u'v-uv')/v^2$.",
+              "Áp dụng quy tắc hàm hợp khi có biểu thức bên trong."
+            ]
+          },
+          {
+            "id": "i89",
+            "title": "Nghiệm và dấu",
+            "content": [
+              "Tìm nghiệm đạo hàm, lập bảng dấu trên tập xác định."
+            ]
+          },
+          {
+            "id": "i90",
+            "title": "Cực trị",
+            "content": [
+              "Xác định điểm đạo hàm đổi dấu, tính tung độ cực trị."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "n95",
+        "title": "Bảng biến thiên",
+        "children": [
+          {
+            "id": "i92",
+            "title": "Giới hạn",
+            "content": [
+              "Tính giới hạn tại biên miền và vô cực."
+            ]
+          },
+          {
+            "id": "i93",
+            "title": "Ghép thông tin",
+            "content": [
+              "Kết hợp dấu đạo hàm, cực trị, giới hạn để hoàn thiện bảng."
+            ]
+          },
+          {
+            "id": "i94",
+            "title": "Kiểm tra",
+            "content": [
+              "Chiều mũi tên phải nhất quán với dấu đạo hàm."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "n98",
+        "title": "Tiệm cận",
+        "children": [
+          {
+            "id": "i96",
+            "title": "Đứng",
+            "content": [
+              "Giới hạn một phía vô cực tại $x=a$ cho đường $x=a$."
+            ]
+          },
+          {
+            "id": "i97",
+            "title": "Ngang và xiên",
+            "content": [
+              "Dùng giới hạn tại vô cực; chỉ vẽ các tiệm cận thực sự tồn tại."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "n103",
+        "title": "Vẽ đồ thị",
+        "children": [
+          {
+            "id": "i99",
+            "title": "1 · Miền và đạo hàm",
+            "content": [
+              "Xác định miền; tính đạo hàm, xét dấu và cực trị."
+            ]
+          },
+          {
+            "id": "i100",
+            "title": "2 · Giới hạn",
+            "content": [
+              "Tính giới hạn; tìm tiệm cận và lập bảng biến thiên."
+            ]
+          },
+          {
+            "id": "i101",
+            "title": "3 · Điểm đặc biệt",
+            "content": [
+              "Tìm giao trục, cực trị và các điểm phụ. Chú ý đối xứng nếu có."
+            ]
+          },
+          {
+            "id": "i102",
+            "title": "4 · Phác họa",
+            "content": [
+              "$f(x)=x^3-3x$. Giao trục hoành: $x=-\\sqrt3,0,\\sqrt3$.",
+              "Cực đại $(-1,2)$; cực tiểu $(1,-2)$; đồ thị nhận gốc tọa độ làm tâm đối xứng."
+            ],
+            "graph": true
+          }
+        ]
+      },
+      {
+        "id": "n107",
+        "title": "Nhận dạng đồ thị",
+        "children": [
+          {
+            "id": "i104",
+            "title": "Bậc ba",
+            "content": [
+              "Hệ số bậc cao nhất dương: nhánh phải đi lên, nhánh trái đi xuống; âm thì ngược lại."
+            ]
+          },
+          {
+            "id": "i105",
+            "title": "Hàm phân thức",
+            "content": [
+              "Kiểm tra tập xác định, tiệm cận và dấu đạo hàm để đối chiếu đồ thị."
+            ]
+          },
+          {
+            "id": "i106",
+            "title": "Đối chiếu",
+            "content": [
+              "Không chỉ nhìn hình dáng: kiểm tra giao trục và tọa độ cực trị."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "optimization",
+    "title": "BÀI TOÁN THỰC TẾ – TỐI ƯU",
+    "subtitle": "Mô hình hóa · Phương án tối ưu",
+    "color": "terracotta",
+    "number": "06",
+    "children": [
+      {
+        "id": "n111",
+        "title": "Nhận dạng bài toán",
+        "children": [
+          {
+            "id": "i108",
+            "title": "Diện tích và thể tích",
+            "content": [
+              "Đại lượng cần tối ưu là diện tích/thể tích; các kích thước liên hệ qua dữ kiện."
+            ]
+          },
+          {
+            "id": "i109",
+            "title": "Chi phí và lợi nhuận",
+            "content": [
+              "Lợi nhuận bằng doanh thu trừ chi phí. Kiểm tra đơn vị và miền sản lượng."
+            ]
+          },
+          {
+            "id": "i110",
+            "title": "Khoảng cách",
+            "content": [
+              "Có thể tối ưu bình phương khoảng cách thay vì căn bậc hai vì hàm căn đồng biến."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "n116",
+        "title": "Lập hàm số",
+        "children": [
+          {
+            "id": "i112",
+            "title": "Chọn biến",
+            "content": [
+              "Chọn đại lượng độc lập $x$ và ghi đơn vị."
+            ]
+          },
+          {
+            "id": "i113",
+            "title": "Biểu diễn đại lượng",
+            "content": [
+              "Dùng ràng buộc đề bài để đưa các đại lượng còn lại về $x$."
+            ]
+          },
+          {
+            "id": "i114",
+            "title": "Hàm mục tiêu",
+            "content": [
+              "Viết biểu thức cần tối đa/tối thiểu theo $x$."
+            ]
+          },
+          {
+            "id": "i115",
+            "title": "Miền hợp lệ",
+            "content": [
+              "Kích thước dương, sản lượng không âm; các ràng buộc khác theo đề."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "n119",
+        "title": "Điều kiện",
+        "children": [
+          {
+            "id": "i117",
+            "title": "Miền thực tế",
+            "content": [
+              "Loại các giá trị làm kích thước âm, mẫu bằng 0 hoặc mô hình vô nghĩa."
+            ]
+          },
+          {
+            "id": "i118",
+            "title": "Biến nguyên",
+            "content": [
+              "Nếu số lượng phải nguyên, so sánh các số nguyên hợp lệ gần nghiệm tối ưu liên tục."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "n124",
+        "title": "Tìm tối ưu",
+        "children": [
+          {
+            "id": "i120",
+            "title": "Đạo hàm",
+            "content": [
+              "Tính đạo hàm hàm mục tiêu trên miền hợp lệ."
+            ]
+          },
+          {
+            "id": "i121",
+            "title": "Điểm cần xét",
+            "content": [
+              "Tìm nghiệm đạo hàm và các đầu mút có nghĩa."
+            ]
+          },
+          {
+            "id": "i122",
+            "title": "So sánh",
+            "content": [
+              "So sánh giá trị hoặc dùng bảng biến thiên để chọn tối ưu toàn miền."
+            ]
+          },
+          {
+            "id": "i123",
+            "title": "Kiểm tra thực tế",
+            "content": [
+              "Thay kết quả vào ràng buộc ban đầu, kiểm tra đơn vị và tính khả thi."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "n134",
+        "title": "Kết luận",
+        "children": [
+          {
+            "id": "n132",
+            "title": "Hàng rào 40 m",
+            "children": [
+              {
+                "id": "i125",
+                "title": "Đề bài",
+                "content": [
+                  "Dùng 40 m hàng rào tạo hình chữ nhật (rào cả bốn cạnh). Tìm diện tích lớn nhất."
+                ]
+              },
+              {
+                "id": "i126",
+                "title": "Chọn biến",
+                "content": [
+                  "Chiều rộng $x$ m; chiều dài $20-x$ m."
+                ]
+              },
+              {
+                "id": "i127",
+                "title": "Lập hàm số",
+                "content": [
+                  "$S(x)=x(20-x)$, đơn vị $\\mathrm{m}^2$."
+                ]
+              },
+              {
+                "id": "i128",
+                "title": "Điều kiện",
+                "content": [
+                  "$0<x<20$."
+                ]
+              },
+              {
+                "id": "i129",
+                "title": "Tìm giá trị tối ưu",
+                "content": [
+                  "$S'(x)=20-2x=0\\Rightarrow x=10$. Dấu đạo hàm đổi từ dương sang âm."
+                ]
+              },
+              {
+                "id": "i130",
+                "title": "Kiểm tra kết quả",
+                "content": [
+                  "Hai cạnh 10 m, chu vi $2(10+10)=40$ m, các kích thước dương."
+                ]
+              },
+              {
+                "id": "i131",
+                "title": "Kết luận thực tế",
+                "content": [
+                  "Diện tích lớn nhất là $100\\,\\mathrm{m}^2$, đạt được khi hình chữ nhật là hình vuông cạnh 10 m."
+                ]
+              }
+            ]
+          },
+          {
+            "id": "i133",
+            "title": "Lợi nhuận",
+            "content": [
+              "$P(x)=-x^2+60x-500$ (nghìn đồng), $0\\leq x\\leq50$.",
+              "$P'(x)=60-2x=0$ tại $x=30$. $P(0)=-500$, $P(30)=400$, $P(50)=0$.",
+              "Lợi nhuận lớn nhất 400 nghìn đồng khi bán 30 sản phẩm."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "n138",
+        "title": "Lỗi thường gặp",
+        "children": [
+          {
+            "id": "i135",
+            "title": "Bỏ ràng buộc",
+            "content": [
+              "Điểm dừng ngoài miền thực tế phải loại bỏ."
+            ]
+          },
+          {
+            "id": "i136",
+            "title": "Thiếu đơn vị",
+            "content": [
+              "Kết luận giá trị tối ưu kèm đơn vị và phương án đạt giá trị đó."
+            ]
+          },
+          {
+            "id": "i137",
+            "title": "Làm tròn sớm",
+            "content": [
+              "Giữ giá trị chính xác trong tính toán; chỉ làm tròn ở bước kết luận theo yêu cầu."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "practice",
+    "title": "LUYỆN TẬP TRẮC NGHIỆM",
+    "subtitle": "Củng cố · Kiểm tra kiến thức",
+    "color": "moss",
+    "number": "07",
+    "children": [
+      {
+        "id": "by-topic",
+        "title": "Theo chủ đề",
+        "children": [
+          {
+            "id": "quiz-monotonic",
+            "title": "TÍNH ĐƠN ĐIỆU",
+            "quiz": "monotonic"
+          },
+          {
+            "id": "quiz-extrema",
+            "title": "CỰC TRỊ",
+            "quiz": "extrema"
+          },
+          {
+            "id": "quiz-minmax",
+            "title": "GTLN – GTNN",
+            "quiz": "minmax"
+          },
+          {
+            "id": "quiz-asymptotes",
+            "title": "TIỆM CẬN",
+            "quiz": "asymptotes"
+          },
+          {
+            "id": "quiz-graphs",
+            "title": "KHẢO SÁT – ĐỒ THỊ",
+            "quiz": "graphs"
+          },
+          {
+            "id": "quiz-optimization",
+            "title": "BÀI TOÁN THỰC TẾ – TỐI ƯU",
+            "quiz": "optimization"
+          }
+        ]
+      },
+      {
+        "id": "mixed",
+        "title": "Bài tổng hợp",
+        "quiz": "all"
+      },
+      {
+        "id": "exam",
+        "title": "Đề luyện tập",
+        "quiz": "all"
+      },
+      {
+        "id": "wrong",
+        "title": "Câu đã sai",
+        "quiz": "wrong"
+      },
+      {
+        "id": "results",
+        "title": "Kết quả",
+        "quiz": "results"
+      }
+    ]
+  }
+]

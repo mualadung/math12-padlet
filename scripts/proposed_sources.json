@@ -1,0 +1,352 @@
+{
+  "Q01-2024": {
+    "id": "Q01_D1",
+    "code": "Q01-2024",
+    "topicKey": "TOPIC_1_1",
+    "rawSource": "Đề thi tốt nghiệp THPT chính thức Bộ GD&ĐT 2024 - Mã đề 102 - Câu 15",
+    "standardized": "[Nguồn: Đề thi tốt nghiệp THPT chính thức Bộ GD&ĐT 2024 - Mã đề 102 - Câu 15]"
+  },
+  "Q02-2024": {
+    "id": "Q02_D1",
+    "code": "Q02-2024",
+    "topicKey": "TOPIC_1_1",
+    "rawSource": "Đề Khảo sát chất lượng Toán 12 Sở GD&ĐT Nam Định 2024 - Câu 8",
+    "standardized": "[Nguồn: Đề Khảo sát chất lượng Toán 12 Sở GD&ĐT Nam Định 2024 - Câu 8]"
+  },
+  "Q03-2025": {
+    "id": "Q03_D1",
+    "code": "Q03-2025",
+    "topicKey": "TOPIC_1_1",
+    "rawSource": "Đề tham khảo Tốt nghiệp THPT 2025 Bộ GD&ĐT - Cấu trúc mới - Câu 1",
+    "standardized": "[Nguồn: Đề tham khảo Tốt nghiệp THPT 2025 Bộ GD&ĐT - Cấu trúc mới - Câu 1]"
+  },
+  "Q04-2025": {
+    "id": "Q04_D1",
+    "code": "Q04-2025",
+    "topicKey": "TOPIC_1_1",
+    "rawSource": "Đề thi thử Tốt nghiệp THPT 2025 Chuyên ĐH Sư Phạm Hà Nội - Lần 1",
+    "standardized": "[Nguồn: Đề thi thử Tốt nghiệp THPT 2025 Chuyên ĐH Sư Phạm Hà Nội - Lần 1]"
+  },
+  "Q05-2024": {
+    "id": "Q05_D1",
+    "code": "Q05-2024",
+    "topicKey": "TOPIC_1_1",
+    "rawSource": "Đề thi tốt nghiệp THPT Bộ GD&ĐT 2024 - Câu 42 (Vận dụng cao)",
+    "standardized": "[Nguồn: Đề thi tốt nghiệp THPT Bộ GD&ĐT 2024 - Câu 42 (Vận dụng cao)]"
+  },
+  "Q06-2024": {
+    "id": "Q06_T2",
+    "code": "Q06-2024",
+    "topicKey": "TOPIC_1_2",
+    "rawSource": "Đề thi tốt nghiệp THPT chính thức Bộ GD&ĐT 2024 - Mã đề 104 - Câu 8",
+    "standardized": "[Nguồn: Đề thi tốt nghiệp THPT chính thức Bộ GD&ĐT 2024 - Mã đề 104 - Câu 8]"
+  },
+  "Q07-2024": {
+    "id": "Q07_T2",
+    "code": "Q07-2024",
+    "topicKey": "TOPIC_1_2",
+    "rawSource": "Đề Khảo sát chất lượng Toán 12 Sở GD&ĐT Hà Nội 2024 - Câu 14",
+    "standardized": "[Nguồn: Đề Khảo sát chất lượng Toán 12 Sở GD&ĐT Hà Nội 2024 - Câu 14]"
+  },
+  "Q08-2025": {
+    "id": "Q08_T2",
+    "code": "Q08-2025",
+    "topicKey": "TOPIC_1_2",
+    "rawSource": "Đề tham khảo Tốt nghiệp THPT 2025 Bộ GD&ĐT - Cấu trúc trắc nghiệm đúng/sai",
+    "standardized": "[Nguồn: Đề tham khảo Tốt nghiệp THPT 2025 Bộ GD&ĐT - Cấu trúc trắc nghiệm đúng/sai]"
+  },
+  "Q09-2024": {
+    "id": "Q09_T2",
+    "code": "Q09-2024",
+    "topicKey": "TOPIC_1_2",
+    "rawSource": "Đề thi thử Tốt nghiệp THPT 2024 Chuyên Lam Sơn Thanh Hóa - Câu 35",
+    "standardized": "[Nguồn: Đề thi thử Tốt nghiệp THPT 2024 Chuyên Lam Sơn Thanh Hóa - Câu 35]"
+  },
+  "Q10-2024": {
+    "id": "Q10_T2",
+    "code": "Q10-2024",
+    "topicKey": "TOPIC_1_2",
+    "rawSource": "Đề Khảo sát chất lượng Toán 12 Sở GD&ĐT Bắc Ninh 2024 - Câu 48",
+    "standardized": "[Nguồn: Đề Khảo sát chất lượng Toán 12 Sở GD&ĐT Bắc Ninh 2024 - Câu 48]"
+  },
+  "Q11-2024": {
+    "id": "Q11_T3",
+    "code": "Q11-2024",
+    "topicKey": "TOPIC_1_3",
+    "rawSource": "Đề thi tốt nghiệp THPT chính thức Bộ GD&ĐT 2024 - Mã đề 104 - Câu 12",
+    "standardized": "[Nguồn: Đề thi tốt nghiệp THPT chính thức Bộ GD&ĐT 2024 - Mã đề 104 - Câu 12]"
+  },
+  "Q12-2024": {
+    "id": "Q12_T3",
+    "code": "Q12-2024",
+    "topicKey": "TOPIC_1_3",
+    "rawSource": "Đề Khảo sát chất lượng Sở GD&ĐT Bắc Ninh 2024 - Câu 19",
+    "standardized": "[Nguồn: Đề Khảo sát chất lượng Sở GD&ĐT Bắc Ninh 2024 - Câu 19]"
+  },
+  "Q13-2024": {
+    "id": "Q13_T3",
+    "code": "Q13-2024",
+    "topicKey": "TOPIC_1_3",
+    "rawSource": "Đề thi tốt nghiệp THPT chính thức Bộ GD&ĐT 2024 - Mã đề 103 - Câu 14",
+    "standardized": "[Nguồn: Đề thi tốt nghiệp THPT chính thức Bộ GD&ĐT 2024 - Mã đề 103 - Câu 14]"
+  },
+  "Q14-2025": {
+    "id": "Q14_T3",
+    "code": "Q14-2025",
+    "topicKey": "TOPIC_1_3",
+    "rawSource": "Đề tham khảo Tốt nghiệp THPT 2025 Bộ GD&ĐT - Dạng thực tế tối ưu",
+    "standardized": "[Nguồn: Đề tham khảo Tốt nghiệp THPT 2025 Bộ GD&ĐT - Dạng thực tế tối ưu]"
+  },
+  "Q15-2024": {
+    "id": "Q15_T3",
+    "code": "Q15-2024",
+    "topicKey": "TOPIC_1_3",
+    "rawSource": "Đề Khảo sát chất lượng Toán 12 Sở GD&ĐT Nghệ An 2024 - Câu 45",
+    "standardized": "[Nguồn: Đề Khảo sát chất lượng Toán 12 Sở GD&ĐT Nghệ An 2024 - Câu 45]"
+  },
+  "Q16-2024": {
+    "id": "Q16_T4",
+    "code": "Q16-2024",
+    "topicKey": "TOPIC_1_4",
+    "rawSource": "Đề thi tốt nghiệp THPT chính thức Bộ GD&ĐT 2024 - Mã đề 101 - Câu 4",
+    "standardized": "[Nguồn: Đề thi tốt nghiệp THPT chính thức Bộ GD&ĐT 2024 - Mã đề 101 - Câu 4]"
+  },
+  "Q17-2025": {
+    "id": "Q17_T4",
+    "code": "Q17-2025",
+    "topicKey": "TOPIC_1_4",
+    "rawSource": "Đề minh họa Cấu trúc mới 2025 SGK Kết nối tri thức - Khảo sát hàm số",
+    "standardized": "[Nguồn: Đề tham khảo Tốt nghiệp THPT 2025 Bộ GD&ĐT - Cấu trúc mới - Câu 12]"
+  },
+  "Q18-2024": {
+    "id": "Q18_T4",
+    "code": "Q18-2024",
+    "topicKey": "TOPIC_1_4",
+    "rawSource": "Đề Khảo sát chất lượng Toán 12 Sở GD&ĐT Hà Nội 2024 - Câu 33",
+    "standardized": "[Nguồn: Đề Khảo sát chất lượng Toán 12 Sở GD&ĐT Hà Nội 2024 - Câu 33]"
+  },
+  "Q19-2024": {
+    "id": "Q19_T4",
+    "code": "Q19-2024",
+    "topicKey": "TOPIC_1_4",
+    "rawSource": "Đề thi thử Tốt nghiệp THPT Chuyên Phan Bội Châu Nghệ An 2024 - Câu 38",
+    "standardized": "[Nguồn: Đề thi thử Tốt nghiệp THPT Chuyên Phan Bội Châu Nghệ An 2024 - Câu 38]"
+  },
+  "Q20-2024": {
+    "id": "Q20_T4",
+    "code": "Q20-2024",
+    "topicKey": "TOPIC_1_4",
+    "rawSource": "Đề thi thử Tốt nghiệp THPT 2024 Chuyên Lam Sơn Thanh Hóa - Câu 40",
+    "standardized": "[Nguồn: Đề thi thử Tốt nghiệp THPT 2024 Chuyên Lam Sơn Thanh Hóa - Câu 40]"
+  },
+  "Q21-2024": {
+    "id": "Q21_T5",
+    "code": "Q21-2024",
+    "topicKey": "TOPIC_1_5",
+    "rawSource": "Đề thi tốt nghiệp THPT chính thức Bộ GD&ĐT 2024 - Mã đề 103 - Câu 7",
+    "standardized": "[Nguồn: Đề thi tốt nghiệp THPT chính thức Bộ GD&ĐT 2024 - Mã đề 103 - Câu 7]"
+  },
+  "Q22-2024": {
+    "id": "Q22_T5",
+    "code": "Q22-2024",
+    "topicKey": "TOPIC_1_5",
+    "rawSource": "Đề thi tốt nghiệp THPT chính thức Bộ GD&ĐT 2024 - Mã đề 101 - Câu 22",
+    "standardized": "[Nguồn: Đề thi tốt nghiệp THPT chính thức Bộ GD&ĐT 2024 - Mã đề 101 - Câu 22]"
+  },
+  "Q23-2025": {
+    "id": "Q23_T5",
+    "code": "Q23-2025",
+    "topicKey": "TOPIC_1_5",
+    "rawSource": "Đề tham khảo Tốt nghiệp THPT 2025 Bộ GD&ĐT - Cấu trúc trắc nghiệm đúng sai",
+    "standardized": "[Nguồn: Đề tham khảo Tốt nghiệp THPT 2025 Bộ GD&ĐT - Cấu trúc trắc nghiệm đúng sai]"
+  },
+  "Q24-2024": {
+    "id": "Q24_T5",
+    "code": "Q24-2024",
+    "topicKey": "TOPIC_1_5",
+    "rawSource": "Đề Khảo sát chất lượng Toán 12 Sở GD&ĐT Bắc Ninh 2024 - Câu 42",
+    "standardized": "[Nguồn: Đề Khảo sát chất lượng Toán 12 Sở GD&ĐT Bắc Ninh 2024 - Câu 42]"
+  },
+  "Q25-2024": {
+    "id": "Q25_T5",
+    "code": "Q25-2024",
+    "topicKey": "TOPIC_1_5",
+    "rawSource": "Đề thi thử THPT Chuyên ĐH Sư Phạm Hà Nội 2024 - Câu 49",
+    "standardized": "[Nguồn: Đề thi thử THPT Chuyên ĐH Sư Phạm Hà Nội 2024 - Câu 49]"
+  },
+  "Q26-2024": {
+    "id": "Q26_T6",
+    "code": "Q26-2024",
+    "topicKey": "TOPIC_1_6",
+    "rawSource": "SGK Toán 12 Tập 1 - Kết nối tri thức - Bài 5 Bài toán tối ưu",
+    "standardized": "[Nguồn: Đề Khảo sát chất lượng Toán 12 Sở GD&ĐT Hà Nội 2024 - Mã đề 101 - Câu 21]"
+  },
+  "Q27-2024": {
+    "id": "Q27_T6",
+    "code": "Q27-2024",
+    "topicKey": "TOPIC_1_6",
+    "rawSource": "Đề Khảo sát chất lượng Toán 12 Sở GD&ĐT Hà Nội 2024 - Câu 28",
+    "standardized": "[Nguồn: Đề Khảo sát chất lượng Toán 12 Sở GD&ĐT Hà Nội 2024 - Câu 28]"
+  },
+  "Q28-2025": {
+    "id": "Q28_T6",
+    "code": "Q28-2025",
+    "topicKey": "TOPIC_1_6",
+    "rawSource": "Đề tham khảo Tốt nghiệp THPT 2025 Bộ GD&ĐT - Cấu trúc trắc nghiệm đúng/sai",
+    "standardized": "[Nguồn: Đề tham khảo Tốt nghiệp THPT 2025 Bộ GD&ĐT - Cấu trúc trắc nghiệm đúng/sai]"
+  },
+  "Q29-2024": {
+    "id": "Q29_T6",
+    "code": "Q29-2024",
+    "topicKey": "TOPIC_1_6",
+    "rawSource": "Đề thi thử Tốt nghiệp THPT 2024 Chuyên Lam Sơn Thanh Hóa - Câu 46",
+    "standardized": "[Nguồn: Đề thi thử Tốt nghiệp THPT 2024 Chuyên Lam Sơn Thanh Hóa - Câu 46]"
+  },
+  "Q30-2024": {
+    "id": "Q30_T6",
+    "code": "Q30-2024",
+    "topicKey": "TOPIC_1_6",
+    "rawSource": "Đề Khảo sát chất lượng Toán 12 Sở GD&ĐT Nam Định 2024 - Câu 50",
+    "standardized": "[Nguồn: Đề Khảo sát chất lượng Toán 12 Sở GD&ĐT Nam Định 2024 - Câu 50]"
+  },
+  "Q31-2024": {
+    "id": "Q31_T7",
+    "code": "Q31-2024",
+    "topicKey": "TOPIC_2_1",
+    "rawSource": "Đề thi tốt nghiệp THPT chính thức Bộ GD&ĐT 2024 - Mã đề 102 - Câu 6",
+    "standardized": "[Nguồn: Đề thi tốt nghiệp THPT chính thức Bộ GD&ĐT 2024 - Mã đề 102 - Câu 6]"
+  },
+  "Q32-2024": {
+    "id": "Q32_T7",
+    "code": "Q32-2024",
+    "topicKey": "TOPIC_2_1",
+    "rawSource": "Đề thi thử Tốt nghiệp THPT 2024 Chuyên Lam Sơn Thanh Hóa - Câu 20",
+    "standardized": "[Nguồn: Đề thi thử Tốt nghiệp THPT 2024 Chuyên Lam Sơn Thanh Hóa - Câu 20]"
+  },
+  "Q33-2025": {
+    "id": "Q33_T7",
+    "code": "Q33-2025",
+    "topicKey": "TOPIC_2_1",
+    "rawSource": "Đề tham khảo Tốt nghiệp THPT 2025 Bộ GD&ĐT - Phần Vectơ không gian",
+    "standardized": "[Nguồn: Đề tham khảo Tốt nghiệp THPT 2025 Bộ GD&ĐT - Phần Vectơ không gian]"
+  },
+  "Q34-2024": {
+    "id": "Q34_T7",
+    "code": "Q34-2024",
+    "topicKey": "TOPIC_2_1",
+    "rawSource": "Đề Khảo sát chất lượng Toán 12 Sở GD&ĐT Hải Phòng 2024 - Câu 31",
+    "standardized": "[Nguồn: Đề Khảo sát chất lượng Toán 12 Sở GD&ĐT Hải Phòng 2024 - Câu 31]"
+  },
+  "Q35-2024": {
+    "id": "Q35_T7",
+    "code": "Q35-2024",
+    "topicKey": "TOPIC_2_1",
+    "rawSource": "Đề thi thử Tốt nghiệp THPT 2024 Chuyên ĐH Sư Phạm Hà Nội - Câu 47",
+    "standardized": "[Nguồn: Đề thi thử Tốt nghiệp THPT 2024 Chuyên ĐH Sư Phạm Hà Nội - Câu 47]"
+  },
+  "Q36-2024": {
+    "id": "Q36_T8",
+    "code": "Q36-2024",
+    "topicKey": "TOPIC_2_2",
+    "rawSource": "Đề thi tốt nghiệp THPT chính thức Bộ GD&ĐT 2024 - Mã đề 101 - Câu 10",
+    "standardized": "[Nguồn: Đề thi tốt nghiệp THPT chính thức Bộ GD&ĐT 2024 - Mã đề 101 - Câu 10]"
+  },
+  "Q37-2024": {
+    "id": "Q37_T8",
+    "code": "Q37-2024",
+    "topicKey": "TOPIC_2_2",
+    "rawSource": "Đề thi tốt nghiệp THPT chính thức Bộ GD&ĐT 2024 - Mã đề 102 - Câu 18",
+    "standardized": "[Nguồn: Đề thi tốt nghiệp THPT chính thức Bộ GD&ĐT 2024 - Mã đề 102 - Câu 18]"
+  },
+  "Q38-2025": {
+    "id": "Q38_T8",
+    "code": "Q38-2025",
+    "topicKey": "TOPIC_2_2",
+    "rawSource": "Đề tham khảo Tốt nghiệp THPT 2025 Bộ GD&ĐT - Phần Hình không gian Oxyz",
+    "standardized": "[Nguồn: Đề tham khảo Tốt nghiệp THPT 2025 Bộ GD&ĐT - Phần Hình không gian Oxyz]"
+  },
+  "Q39-2024": {
+    "id": "Q39_T8",
+    "code": "Q39-2024",
+    "topicKey": "TOPIC_2_2",
+    "rawSource": "Đề thi tốt nghiệp THPT chính thức Bộ GD&ĐT 2024 - Mã đề 103 - Câu 5",
+    "standardized": "[Nguồn: Đề thi tốt nghiệp THPT chính thức Bộ GD&ĐT 2024 - Mã đề 103 - Câu 5]"
+  },
+  "Q40-2024": {
+    "id": "Q40_T8",
+    "code": "Q40-2024",
+    "topicKey": "TOPIC_2_2",
+    "rawSource": "Đề Khảo sát chất lượng Toán 12 Sở GD&ĐT Hà Nội 2024 - Câu 34",
+    "standardized": "[Nguồn: Đề Khảo sát chất lượng Toán 12 Sở GD&ĐT Hà Nội 2024 - Câu 34]"
+  },
+  "Q41-2024": {
+    "id": "Q41_T9",
+    "code": "Q41-2024",
+    "topicKey": "TOPIC_2_3",
+    "rawSource": "Đề thi tốt nghiệp THPT chính thức Bộ GD&ĐT 2024 - Mã đề 104 - Câu 15",
+    "standardized": "[Nguồn: Đề thi tốt nghiệp THPT chính thức Bộ GD&ĐT 2024 - Mã đề 104 - Câu 15]"
+  },
+  "Q42-2024": {
+    "id": "Q42_T9",
+    "code": "Q42-2024",
+    "topicKey": "TOPIC_2_3",
+    "rawSource": "Đề Khảo sát chất lượng Toán 12 Sở GD&ĐT Bắc Ninh 2024 - Câu 36",
+    "standardized": "[Nguồn: Đề Khảo sát chất lượng Toán 12 Sở GD&ĐT Bắc Ninh 2024 - Câu 36]"
+  },
+  "Q43-2024": {
+    "id": "Q43_T9",
+    "code": "Q43-2024",
+    "topicKey": "TOPIC_2_3",
+    "rawSource": "Đề thi thử Tốt nghiệp THPT 2024 Chuyên Phan Bội Châu Nghệ An - Câu 48",
+    "standardized": "[Nguồn: Đề thi thử Tốt nghiệp THPT 2024 Chuyên Phan Bội Châu Nghệ An - Câu 48]"
+  },
+  "Q44-2025": {
+    "id": "Q44_T9",
+    "code": "Q44-2025",
+    "topicKey": "TOPIC_2_3",
+    "rawSource": "Đề tham khảo Tốt nghiệp THPT 2025 Bộ GD&ĐT - Cấu trúc trắc nghiệm đúng sai",
+    "standardized": "[Nguồn: Đề tham khảo Tốt nghiệp THPT 2025 Bộ GD&ĐT - Cấu trúc trắc nghiệm đúng sai]"
+  },
+  "Q45-2024": {
+    "id": "Q45_T9",
+    "code": "Q45-2024",
+    "topicKey": "TOPIC_2_3",
+    "rawSource": "Đề thi thử Tốt nghiệp THPT 2024 Chuyên ĐH Sư Phạm Hà Nội - Câu 44",
+    "standardized": "[Nguồn: Đề thi thử Tốt nghiệp THPT 2024 Chuyên ĐH Sư Phạm Hà Nội - Câu 44]"
+  },
+  "Q46-2024": {
+    "id": "Q46_T10",
+    "code": "Q46-2024",
+    "topicKey": "TOPIC_2_4",
+    "rawSource": "SGK Toán 12 Tập 1 - Kết nối tri thức - Bài 8 Tọa độ hóa Oxyz",
+    "standardized": "[Nguồn: Đề tham khảo Tốt nghiệp THPT 2025 Bộ GD&ĐT - Phần Hình không gian Oxyz - Câu 18]"
+  },
+  "Q47-2024": {
+    "id": "Q47_T10",
+    "code": "Q47-2024",
+    "topicKey": "TOPIC_2_4",
+    "rawSource": "Đề Khảo sát chất lượng Toán 12 Sở GD&ĐT Nghệ An 2024 - Câu 47",
+    "standardized": "[Nguồn: Đề Khảo sát chất lượng Toán 12 Sở GD&ĐT Nghệ An 2024 - Câu 47]"
+  },
+  "Q48-2025": {
+    "id": "Q48_T10",
+    "code": "Q48-2025",
+    "topicKey": "TOPIC_2_4",
+    "rawSource": "Đề tham khảo Tốt nghiệp THPT 2025 Bộ GD&ĐT - Cấu trúc trắc nghiệm đúng/sai",
+    "standardized": "[Nguồn: Đề tham khảo Tốt nghiệp THPT 2025 Bộ GD&ĐT - Cấu trúc trắc nghiệm đúng/sai]"
+  },
+  "Q49-2024": {
+    "id": "Q49_T10",
+    "code": "Q49-2024",
+    "topicKey": "TOPIC_2_4",
+    "rawSource": "Đề Khảo sát chất lượng Toán 12 Sở GD&ĐT Bắc Ninh 2024 - Câu 50",
+    "standardized": "[Nguồn: Đề Khảo sát chất lượng Toán 12 Sở GD&ĐT Bắc Ninh 2024 - Câu 50]"
+  },
+  "Q50-2024": {
+    "id": "Q50_T10",
+    "code": "Q50-2024",
+    "topicKey": "TOPIC_2_4",
+    "rawSource": "Đề thi thử THPT Chuyên Phan Bội Châu Nghệ An 2024 - Câu 50",
+    "standardized": "[Nguồn: Đề thi thử THPT Chuyên Phan Bội Châu Nghệ An 2024 - Câu 50]"
+  }
+}

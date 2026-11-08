@@ -1,0 +1,28 @@
+--- a/src/app/mindmap/mindmapQuestions.ts
++++ b/src/app/mindmap/mindmapQuestions.ts
+@@ -760,3 +760,3 @@
+-  // CHỦ ĐỀ 10: TỌA ĐỘ HÓA OXYZ & BÀI TOÁN CỰC TRỊ THỰC TẾ (TOPIC_2_4)
+-  // =========================================================================
+-  "TOPIC_2_4": [
++  // CHỦ ĐỀ 10: TỌA ĐỘ HÓA OXYZ & BÀI TOÁN CỰC TRỊ THỰC TẾ (TOPIC_3_1)
++  // =========================================================================
++  "TOPIC_3_1": [
+@@ -842,10 +842,18 @@ export function getQuestionsForTopic(topicId: string): ExamQuestionItem[] {
+   if (REAL_QUESTIONS_BANK[topicId]) {
+     return REAL_QUESTIONS_BANK[topicId];
+   }
++  // Hỗ trợ mã cũ TOPIC_2_4 nếu có gọi
++  if (topicId === "TOPIC_2_4") {
++    return REAL_QUESTIONS_BANK["TOPIC_3_1"] || [];
++  }
+   // Mặc định fallback: Nếu thuộc Chương I thì trả về ngân hàng Chương I
+   if (topicId.startsWith("TOPIC_1")) {
+     return REAL_QUESTIONS_BANK["TOPIC_1_1"];
+   }
++  // Nếu thuộc Chủ đề 10 (Bài toán thực tế cực trị) thì trả về TOPIC_3_1
++  if (topicId.startsWith("TOPIC_3")) {
++    return REAL_QUESTIONS_BANK["TOPIC_3_1"];
++  }
+   // Nếu thuộc Chương II thì trả về ngân hàng Oxyz
+   return REAL_QUESTIONS_BANK["TOPIC_2_2"];
+ }
